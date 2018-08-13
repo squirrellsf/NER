@@ -1,0 +1,1511 @@
+2018-07-22 15:54:59,280:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='train', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-07-22 15:55:01,595:INFO: 2018-07-22 15:55:01 epoch 1, step 1, loss: 87.81, global_step: 1
+2018-07-22 15:55:01,595:INFO: 2018-07-22 15:55:01 epoch 1, step 1, loss: 87.81, global_step: 1
+2018-07-22 15:56:01,309:INFO: 2018-07-22 15:55:01 epoch 1, step 300, loss: 6.128, global_step: 300
+2018-07-22 15:56:01,309:INFO: 2018-07-22 15:55:01 epoch 1, step 300, loss: 6.128, global_step: 300
+2018-07-22 15:56:59,934:INFO: 2018-07-22 15:55:01 epoch 1, step 600, loss: 4.935, global_step: 600
+2018-07-22 15:56:59,934:INFO: 2018-07-22 15:55:01 epoch 1, step 600, loss: 4.935, global_step: 600
+2018-07-22 15:57:37,470:INFO: 2018-07-22 15:55:01 epoch 1, step 792, loss: 1.385, global_step: 792
+2018-07-22 15:57:37,470:INFO: 2018-07-22 15:55:01 epoch 1, step 792, loss: 1.385, global_step: 792
+2018-07-22 15:57:37,769:INFO: ===========validation / test===========
+2018-07-22 15:57:37,769:INFO: ===========validation / test===========
+2018-07-22 15:57:46,667:INFO: 2018-07-22 15:57:46 epoch 2, step 1, loss: 3.481, global_step: 793
+2018-07-22 15:57:46,667:INFO: 2018-07-22 15:57:46 epoch 2, step 1, loss: 3.481, global_step: 793
+2018-07-22 15:58:46,065:INFO: 2018-07-22 15:57:46 epoch 2, step 300, loss: 4.201, global_step: 1092
+2018-07-22 15:58:46,065:INFO: 2018-07-22 15:57:46 epoch 2, step 300, loss: 4.201, global_step: 1092
+2018-07-22 15:59:44,706:INFO: 2018-07-22 15:57:46 epoch 2, step 600, loss: 2.36, global_step: 1392
+2018-07-22 15:59:44,706:INFO: 2018-07-22 15:57:46 epoch 2, step 600, loss: 2.36, global_step: 1392
+2018-07-22 16:00:22,430:INFO: 2018-07-22 15:57:46 epoch 2, step 792, loss: 1.524, global_step: 1584
+2018-07-22 16:00:22,430:INFO: 2018-07-22 15:57:46 epoch 2, step 792, loss: 1.524, global_step: 1584
+2018-07-22 16:00:22,615:INFO: ===========validation / test===========
+2018-07-22 16:00:22,615:INFO: ===========validation / test===========
+2018-07-22 16:00:32,156:INFO: processed 177232 tokens with 6192 phrases; found: 5556 phrases; correct: 4471.
+2018-07-22 16:00:32,156:INFO: processed 177232 tokens with 6192 phrases; found: 5556 phrases; correct: 4471.
+2018-07-22 16:00:32,156:INFO: accuracy:  97.27%; precision:  80.47%; recall:  72.21%; FB1:  76.12
+2018-07-22 16:00:32,156:INFO: accuracy:  97.27%; precision:  80.47%; recall:  72.21%; FB1:  76.12
+2018-07-22 16:00:32,157:INFO: LOC: precision:  84.32%; recall:  75.50%; FB1:  79.66  2576
+2018-07-22 16:00:32,157:INFO: LOC: precision:  84.32%; recall:  75.50%; FB1:  79.66  2576
+2018-07-22 16:00:32,157:INFO: ORG: precision:  72.77%; recall:  64.84%; FB1:  68.57  1186
+2018-07-22 16:00:32,157:INFO: ORG: precision:  72.77%; recall:  64.84%; FB1:  68.57  1186
+2018-07-22 16:00:32,157:INFO: PER: precision:  80.04%; recall:  72.38%; FB1:  76.02  1794
+2018-07-22 16:00:32,157:INFO: PER: precision:  80.04%; recall:  72.38%; FB1:  76.02  1794
+2018-07-22 16:00:32,496:INFO: 2018-07-22 16:00:32 epoch 3, step 1, loss: 2.793, global_step: 1585
+2018-07-22 16:00:32,496:INFO: 2018-07-22 16:00:32 epoch 3, step 1, loss: 2.793, global_step: 1585
+2018-07-22 16:01:30,620:INFO: 2018-07-22 16:00:32 epoch 3, step 300, loss: 2.488, global_step: 1884
+2018-07-22 16:01:30,620:INFO: 2018-07-22 16:00:32 epoch 3, step 300, loss: 2.488, global_step: 1884
+2018-07-22 16:02:29,619:INFO: 2018-07-22 16:00:32 epoch 3, step 600, loss: 2.031, global_step: 2184
+2018-07-22 16:02:29,619:INFO: 2018-07-22 16:00:32 epoch 3, step 600, loss: 2.031, global_step: 2184
+2018-07-22 16:03:07,873:INFO: 2018-07-22 16:00:32 epoch 3, step 792, loss: 1.65, global_step: 2376
+2018-07-22 16:03:07,873:INFO: 2018-07-22 16:00:32 epoch 3, step 792, loss: 1.65, global_step: 2376
+2018-07-22 16:03:08,115:INFO: ===========validation / test===========
+2018-07-22 16:03:08,115:INFO: ===========validation / test===========
+2018-07-22 16:03:17,694:INFO: processed 177232 tokens with 6192 phrases; found: 5810 phrases; correct: 4818.
+2018-07-22 16:03:17,694:INFO: processed 177232 tokens with 6192 phrases; found: 5810 phrases; correct: 4818.
+2018-07-22 16:03:17,694:INFO: accuracy:  97.58%; precision:  82.93%; recall:  77.81%; FB1:  80.29
+2018-07-22 16:03:17,694:INFO: accuracy:  97.58%; precision:  82.93%; recall:  77.81%; FB1:  80.29
+2018-07-22 16:03:17,694:INFO: LOC: precision:  85.59%; recall:  79.87%; FB1:  82.63  2685
+2018-07-22 16:03:17,694:INFO: LOC: precision:  85.59%; recall:  79.87%; FB1:  82.63  2685
+2018-07-22 16:03:17,694:INFO: ORG: precision:  74.33%; recall:  72.88%; FB1:  73.60  1305
+2018-07-22 16:03:17,694:INFO: ORG: precision:  74.33%; recall:  72.88%; FB1:  73.60  1305
+2018-07-22 16:03:17,694:INFO: PER: precision:  85.16%; recall:  78.12%; FB1:  81.49  1820
+2018-07-22 16:03:17,694:INFO: PER: precision:  85.16%; recall:  78.12%; FB1:  81.49  1820
+2018-07-22 16:03:17,965:INFO: 2018-07-22 16:03:17 epoch 4, step 1, loss: 2.06, global_step: 2377
+2018-07-22 16:03:17,965:INFO: 2018-07-22 16:03:17 epoch 4, step 1, loss: 2.06, global_step: 2377
+2018-07-22 16:04:17,234:INFO: 2018-07-22 16:03:17 epoch 4, step 300, loss: 2.129, global_step: 2676
+2018-07-22 16:04:17,234:INFO: 2018-07-22 16:03:17 epoch 4, step 300, loss: 2.129, global_step: 2676
+2018-07-22 16:05:16,352:INFO: 2018-07-22 16:03:17 epoch 4, step 600, loss: 1.241, global_step: 2976
+2018-07-22 16:05:16,352:INFO: 2018-07-22 16:03:17 epoch 4, step 600, loss: 1.241, global_step: 2976
+2018-07-22 16:05:53,703:INFO: 2018-07-22 16:03:17 epoch 4, step 792, loss: 3.406, global_step: 3168
+2018-07-22 16:05:53,703:INFO: 2018-07-22 16:03:17 epoch 4, step 792, loss: 3.406, global_step: 3168
+2018-07-22 16:05:53,893:INFO: ===========validation / test===========
+2018-07-22 16:05:53,893:INFO: ===========validation / test===========
+2018-07-22 16:06:03,578:INFO: processed 177232 tokens with 6192 phrases; found: 5936 phrases; correct: 5053.
+2018-07-22 16:06:03,578:INFO: processed 177232 tokens with 6192 phrases; found: 5936 phrases; correct: 5053.
+2018-07-22 16:06:03,578:INFO: accuracy:  97.92%; precision:  85.12%; recall:  81.61%; FB1:  83.33
+2018-07-22 16:06:03,578:INFO: accuracy:  97.92%; precision:  85.12%; recall:  81.61%; FB1:  83.33
+2018-07-22 16:06:03,578:INFO: LOC: precision:  86.77%; recall:  85.26%; FB1:  86.01  2827
+2018-07-22 16:06:03,578:INFO: LOC: precision:  86.77%; recall:  85.26%; FB1:  86.01  2827
+2018-07-22 16:06:03,579:INFO: ORG: precision:  81.48%; recall:  75.06%; FB1:  78.14  1226
+2018-07-22 16:06:03,579:INFO: ORG: precision:  81.48%; recall:  75.06%; FB1:  78.14  1226
+2018-07-22 16:06:03,579:INFO: PER: precision:  85.02%; recall:  80.70%; FB1:  82.80  1883
+2018-07-22 16:06:03,579:INFO: PER: precision:  85.02%; recall:  80.70%; FB1:  82.80  1883
+2018-07-22 16:06:03,849:INFO: 2018-07-22 16:06:03 epoch 5, step 1, loss: 1.167, global_step: 3169
+2018-07-22 16:06:03,849:INFO: 2018-07-22 16:06:03 epoch 5, step 1, loss: 1.167, global_step: 3169
+2018-07-22 16:07:03,492:INFO: 2018-07-22 16:06:03 epoch 5, step 300, loss: 1.186, global_step: 3468
+2018-07-22 16:07:03,492:INFO: 2018-07-22 16:06:03 epoch 5, step 300, loss: 1.186, global_step: 3468
+2018-07-22 16:08:02,548:INFO: 2018-07-22 16:06:03 epoch 5, step 600, loss: 0.9837, global_step: 3768
+2018-07-22 16:08:02,548:INFO: 2018-07-22 16:06:03 epoch 5, step 600, loss: 0.9837, global_step: 3768
+2018-07-22 16:08:41,124:INFO: 2018-07-22 16:06:03 epoch 5, step 792, loss: 0.5837, global_step: 3960
+2018-07-22 16:08:41,124:INFO: 2018-07-22 16:06:03 epoch 5, step 792, loss: 0.5837, global_step: 3960
+2018-07-22 16:08:41,339:INFO: ===========validation / test===========
+2018-07-22 16:08:41,339:INFO: ===========validation / test===========
+2018-07-22 16:08:51,074:INFO: processed 177232 tokens with 6192 phrases; found: 6011 phrases; correct: 5167.
+2018-07-22 16:08:51,074:INFO: processed 177232 tokens with 6192 phrases; found: 6011 phrases; correct: 5167.
+2018-07-22 16:08:51,075:INFO: accuracy:  98.03%; precision:  85.96%; recall:  83.45%; FB1:  84.68
+2018-07-22 16:08:51,075:INFO: accuracy:  98.03%; precision:  85.96%; recall:  83.45%; FB1:  84.68
+2018-07-22 16:08:51,075:INFO: LOC: precision:  88.36%; recall:  86.27%; FB1:  87.30  2809
+2018-07-22 16:08:51,075:INFO: LOC: precision:  88.36%; recall:  86.27%; FB1:  87.30  2809
+2018-07-22 16:08:51,075:INFO: ORG: precision:  79.32%; recall:  76.63%; FB1:  77.95  1286
+2018-07-22 16:08:51,075:INFO: ORG: precision:  79.32%; recall:  76.63%; FB1:  77.95  1286
+2018-07-22 16:08:51,075:INFO: PER: precision:  86.90%; recall:  83.92%; FB1:  85.38  1916
+2018-07-22 16:08:51,075:INFO: PER: precision:  86.90%; recall:  83.92%; FB1:  85.38  1916
+2018-07-22 16:08:51,341:INFO: 2018-07-22 16:08:51 epoch 6, step 1, loss: 0.8221, global_step: 3961
+2018-07-22 16:08:51,341:INFO: 2018-07-22 16:08:51 epoch 6, step 1, loss: 0.8221, global_step: 3961
+2018-07-22 16:09:50,485:INFO: 2018-07-22 16:08:51 epoch 6, step 300, loss: 0.6439, global_step: 4260
+2018-07-22 16:09:50,485:INFO: 2018-07-22 16:08:51 epoch 6, step 300, loss: 0.6439, global_step: 4260
+2018-07-22 16:10:48,968:INFO: 2018-07-22 16:08:51 epoch 6, step 600, loss: 0.8563, global_step: 4560
+2018-07-22 16:10:48,968:INFO: 2018-07-22 16:08:51 epoch 6, step 600, loss: 0.8563, global_step: 4560
+2018-07-22 16:11:26,687:INFO: 2018-07-22 16:08:51 epoch 6, step 792, loss: 0.4966, global_step: 4752
+2018-07-22 16:11:26,687:INFO: 2018-07-22 16:08:51 epoch 6, step 792, loss: 0.4966, global_step: 4752
+2018-07-22 16:11:26,891:INFO: ===========validation / test===========
+2018-07-22 16:11:26,891:INFO: ===========validation / test===========
+2018-07-22 16:11:36,400:INFO: processed 177232 tokens with 6192 phrases; found: 6065 phrases; correct: 5232.
+2018-07-22 16:11:36,400:INFO: processed 177232 tokens with 6192 phrases; found: 6065 phrases; correct: 5232.
+2018-07-22 16:11:36,400:INFO: accuracy:  98.09%; precision:  86.27%; recall:  84.50%; FB1:  85.37
+2018-07-22 16:11:36,400:INFO: accuracy:  98.09%; precision:  86.27%; recall:  84.50%; FB1:  85.37
+2018-07-22 16:11:36,401:INFO: LOC: precision:  89.71%; recall:  87.59%; FB1:  88.64  2809
+2018-07-22 16:11:36,401:INFO: LOC: precision:  89.71%; recall:  87.59%; FB1:  88.64  2809
+2018-07-22 16:11:36,401:INFO: ORG: precision:  80.20%; recall:  78.81%; FB1:  79.50  1308
+2018-07-22 16:11:36,401:INFO: ORG: precision:  80.20%; recall:  78.81%; FB1:  79.50  1308
+2018-07-22 16:11:36,401:INFO: PER: precision:  85.37%; recall:  83.82%; FB1:  84.59  1948
+2018-07-22 16:11:36,401:INFO: PER: precision:  85.37%; recall:  83.82%; FB1:  84.59  1948
+2018-07-22 16:11:36,669:INFO: 2018-07-22 16:11:36 epoch 7, step 1, loss: 0.944, global_step: 4753
+2018-07-22 16:11:36,669:INFO: 2018-07-22 16:11:36 epoch 7, step 1, loss: 0.944, global_step: 4753
+2018-07-22 16:12:35,020:INFO: 2018-07-22 16:11:36 epoch 7, step 300, loss: 0.7641, global_step: 5052
+2018-07-22 16:12:35,020:INFO: 2018-07-22 16:11:36 epoch 7, step 300, loss: 0.7641, global_step: 5052
+2018-07-22 16:13:33,708:INFO: 2018-07-22 16:11:36 epoch 7, step 600, loss: 0.7599, global_step: 5352
+2018-07-22 16:13:33,708:INFO: 2018-07-22 16:11:36 epoch 7, step 600, loss: 0.7599, global_step: 5352
+2018-07-22 16:14:11,154:INFO: 2018-07-22 16:11:36 epoch 7, step 792, loss: 0.7714, global_step: 5544
+2018-07-22 16:14:11,154:INFO: 2018-07-22 16:11:36 epoch 7, step 792, loss: 0.7714, global_step: 5544
+2018-07-22 16:14:11,343:INFO: ===========validation / test===========
+2018-07-22 16:14:11,343:INFO: ===========validation / test===========
+2018-07-22 16:14:20,958:INFO: processed 177232 tokens with 6192 phrases; found: 5866 phrases; correct: 5200.
+2018-07-22 16:14:20,958:INFO: processed 177232 tokens with 6192 phrases; found: 5866 phrases; correct: 5200.
+2018-07-22 16:14:20,958:INFO: accuracy:  98.15%; precision:  88.65%; recall:  83.98%; FB1:  86.25
+2018-07-22 16:14:20,958:INFO: accuracy:  98.15%; precision:  88.65%; recall:  83.98%; FB1:  86.25
+2018-07-22 16:14:20,958:INFO: LOC: precision:  91.04%; recall:  86.90%; FB1:  88.92  2746
+2018-07-22 16:14:20,958:INFO: LOC: precision:  91.04%; recall:  86.90%; FB1:  88.92  2746
+2018-07-22 16:14:20,958:INFO: ORG: precision:  84.34%; recall:  77.31%; FB1:  80.67  1220
+2018-07-22 16:14:20,958:INFO: ORG: precision:  84.34%; recall:  77.31%; FB1:  80.67  1220
+2018-07-22 16:14:20,959:INFO: PER: precision:  87.95%; recall:  84.22%; FB1:  86.05  1900
+2018-07-22 16:14:20,959:INFO: PER: precision:  87.95%; recall:  84.22%; FB1:  86.05  1900
+2018-07-22 16:14:21,245:INFO: 2018-07-22 16:14:20 epoch 8, step 1, loss: 1.035, global_step: 5545
+2018-07-22 16:14:21,245:INFO: 2018-07-22 16:14:20 epoch 8, step 1, loss: 1.035, global_step: 5545
+2018-07-22 16:15:19,965:INFO: 2018-07-22 16:14:20 epoch 8, step 300, loss: 0.652, global_step: 5844
+2018-07-22 16:15:19,965:INFO: 2018-07-22 16:14:20 epoch 8, step 300, loss: 0.652, global_step: 5844
+2018-07-22 16:16:18,422:INFO: 2018-07-22 16:14:20 epoch 8, step 600, loss: 0.5411, global_step: 6144
+2018-07-22 16:16:18,422:INFO: 2018-07-22 16:14:20 epoch 8, step 600, loss: 0.5411, global_step: 6144
+2018-07-22 16:16:55,990:INFO: 2018-07-22 16:14:20 epoch 8, step 792, loss: 0.1877, global_step: 6336
+2018-07-22 16:16:55,990:INFO: 2018-07-22 16:14:20 epoch 8, step 792, loss: 0.1877, global_step: 6336
+2018-07-22 16:16:56,185:INFO: ===========validation / test===========
+2018-07-22 16:16:56,185:INFO: ===========validation / test===========
+2018-07-22 16:17:05,867:INFO: processed 177232 tokens with 6192 phrases; found: 5861 phrases; correct: 5232.
+2018-07-22 16:17:05,867:INFO: processed 177232 tokens with 6192 phrases; found: 5861 phrases; correct: 5232.
+2018-07-22 16:17:05,867:INFO: accuracy:  98.29%; precision:  89.27%; recall:  84.50%; FB1:  86.82
+2018-07-22 16:17:05,867:INFO: accuracy:  98.29%; precision:  89.27%; recall:  84.50%; FB1:  86.82
+2018-07-22 16:17:05,867:INFO: LOC: precision:  92.14%; recall:  88.39%; FB1:  90.23  2760
+2018-07-22 16:17:05,867:INFO: LOC: precision:  92.14%; recall:  88.39%; FB1:  90.23  2760
+2018-07-22 16:17:05,868:INFO: ORG: precision:  83.57%; recall:  80.24%; FB1:  81.87  1278
+2018-07-22 16:17:05,868:INFO: ORG: precision:  83.57%; recall:  80.24%; FB1:  81.87  1278
+2018-07-22 16:17:05,868:INFO: PER: precision:  88.92%; recall:  81.70%; FB1:  85.16  1823
+2018-07-22 16:17:05,868:INFO: PER: precision:  88.92%; recall:  81.70%; FB1:  85.16  1823
+2018-07-22 16:17:06,186:INFO: 2018-07-22 16:17:05 epoch 9, step 1, loss: 0.5678, global_step: 6337
+2018-07-22 16:17:06,186:INFO: 2018-07-22 16:17:05 epoch 9, step 1, loss: 0.5678, global_step: 6337
+2018-07-22 16:18:05,332:INFO: 2018-07-22 16:17:05 epoch 9, step 300, loss: 0.3892, global_step: 6636
+2018-07-22 16:18:05,332:INFO: 2018-07-22 16:17:05 epoch 9, step 300, loss: 0.3892, global_step: 6636
+2018-07-22 16:19:04,481:INFO: 2018-07-22 16:17:05 epoch 9, step 600, loss: 0.3676, global_step: 6936
+2018-07-22 16:19:04,481:INFO: 2018-07-22 16:17:05 epoch 9, step 600, loss: 0.3676, global_step: 6936
+2018-07-22 16:19:41,778:INFO: 2018-07-22 16:17:05 epoch 9, step 792, loss: 0.6437, global_step: 7128
+2018-07-22 16:19:41,778:INFO: 2018-07-22 16:17:05 epoch 9, step 792, loss: 0.6437, global_step: 7128
+2018-07-22 16:19:41,969:INFO: ===========validation / test===========
+2018-07-22 16:19:41,969:INFO: ===========validation / test===========
+2018-07-22 16:19:51,471:INFO: processed 177232 tokens with 6192 phrases; found: 6003 phrases; correct: 5309.
+2018-07-22 16:19:51,471:INFO: processed 177232 tokens with 6192 phrases; found: 6003 phrases; correct: 5309.
+2018-07-22 16:19:51,472:INFO: accuracy:  98.29%; precision:  88.44%; recall:  85.74%; FB1:  87.07
+2018-07-22 16:19:51,472:INFO: accuracy:  98.29%; precision:  88.44%; recall:  85.74%; FB1:  87.07
+2018-07-22 16:19:51,472:INFO: LOC: precision:  91.11%; recall:  89.05%; FB1:  90.07  2812
+2018-07-22 16:19:51,472:INFO: LOC: precision:  91.11%; recall:  89.05%; FB1:  90.07  2812
+2018-07-22 16:19:51,472:INFO: ORG: precision:  82.08%; recall:  82.57%; FB1:  82.32  1339
+2018-07-22 16:19:51,472:INFO: ORG: precision:  82.08%; recall:  82.57%; FB1:  82.32  1339
+2018-07-22 16:19:51,472:INFO: PER: precision:  88.98%; recall:  83.06%; FB1:  85.92  1852
+2018-07-22 16:19:51,472:INFO: PER: precision:  88.98%; recall:  83.06%; FB1:  85.92  1852
+2018-07-22 16:19:51,758:INFO: 2018-07-22 16:19:51 epoch 10, step 1, loss: 0.5887, global_step: 7129
+2018-07-22 16:19:51,758:INFO: 2018-07-22 16:19:51 epoch 10, step 1, loss: 0.5887, global_step: 7129
+2018-07-22 16:20:50,425:INFO: 2018-07-22 16:19:51 epoch 10, step 300, loss: 0.415, global_step: 7428
+2018-07-22 16:20:50,425:INFO: 2018-07-22 16:19:51 epoch 10, step 300, loss: 0.415, global_step: 7428
+2018-07-22 16:21:49,121:INFO: 2018-07-22 16:19:51 epoch 10, step 600, loss: 0.839, global_step: 7728
+2018-07-22 16:21:49,121:INFO: 2018-07-22 16:19:51 epoch 10, step 600, loss: 0.839, global_step: 7728
+2018-07-22 16:22:26,539:INFO: 2018-07-22 16:19:51 epoch 10, step 792, loss: 0.3855, global_step: 7920
+2018-07-22 16:22:26,539:INFO: 2018-07-22 16:19:51 epoch 10, step 792, loss: 0.3855, global_step: 7920
+2018-07-22 16:22:26,741:INFO: ===========validation / test===========
+2018-07-22 16:22:26,741:INFO: ===========validation / test===========
+2018-07-22 16:22:36,562:INFO: processed 177232 tokens with 6192 phrases; found: 5942 phrases; correct: 5317.
+2018-07-22 16:22:36,562:INFO: processed 177232 tokens with 6192 phrases; found: 5942 phrases; correct: 5317.
+2018-07-22 16:22:36,563:INFO: accuracy:  98.41%; precision:  89.48%; recall:  85.87%; FB1:  87.64
+2018-07-22 16:22:36,563:INFO: accuracy:  98.41%; precision:  89.48%; recall:  85.87%; FB1:  87.64
+2018-07-22 16:22:36,563:INFO: LOC: precision:  91.72%; recall:  90.06%; FB1:  90.88  2825
+2018-07-22 16:22:36,563:INFO: LOC: precision:  91.72%; recall:  90.06%; FB1:  90.88  2825
+2018-07-22 16:22:36,563:INFO: ORG: precision:  85.68%; recall:  82.27%; FB1:  83.94  1278
+2018-07-22 16:22:36,563:INFO: ORG: precision:  85.68%; recall:  82.27%; FB1:  83.94  1278
+2018-07-22 16:22:36,563:INFO: PER: precision:  88.69%; recall:  82.21%; FB1:  85.33  1839
+2018-07-22 16:22:36,563:INFO: PER: precision:  88.69%; recall:  82.21%; FB1:  85.33  1839
+2018-07-22 16:22:36,836:INFO: 2018-07-22 16:22:36 epoch 11, step 1, loss: 0.4699, global_step: 7921
+2018-07-22 16:22:36,836:INFO: 2018-07-22 16:22:36 epoch 11, step 1, loss: 0.4699, global_step: 7921
+2018-07-22 16:23:35,745:INFO: 2018-07-22 16:22:36 epoch 11, step 300, loss: 0.5259, global_step: 8220
+2018-07-22 16:23:35,745:INFO: 2018-07-22 16:22:36 epoch 11, step 300, loss: 0.5259, global_step: 8220
+2018-07-22 16:24:34,559:INFO: 2018-07-22 16:22:36 epoch 11, step 600, loss: 0.4999, global_step: 8520
+2018-07-22 16:24:34,559:INFO: 2018-07-22 16:22:36 epoch 11, step 600, loss: 0.4999, global_step: 8520
+2018-07-22 16:25:12,547:INFO: 2018-07-22 16:22:36 epoch 11, step 792, loss: 0.2955, global_step: 8712
+2018-07-22 16:25:12,547:INFO: 2018-07-22 16:22:36 epoch 11, step 792, loss: 0.2955, global_step: 8712
+2018-07-22 16:25:12,738:INFO: ===========validation / test===========
+2018-07-22 16:25:12,738:INFO: ===========validation / test===========
+2018-07-22 16:25:22,560:INFO: processed 177232 tokens with 6192 phrases; found: 5929 phrases; correct: 5260.
+2018-07-22 16:25:22,560:INFO: processed 177232 tokens with 6192 phrases; found: 5929 phrases; correct: 5260.
+2018-07-22 16:25:22,560:INFO: accuracy:  98.33%; precision:  88.72%; recall:  84.95%; FB1:  86.79
+2018-07-22 16:25:22,560:INFO: accuracy:  98.33%; precision:  88.72%; recall:  84.95%; FB1:  86.79
+2018-07-22 16:25:22,560:INFO: LOC: precision:  92.07%; recall:  88.81%; FB1:  90.41  2775
+2018-07-22 16:25:22,560:INFO: LOC: precision:  92.07%; recall:  88.81%; FB1:  90.41  2775
+2018-07-22 16:25:22,560:INFO: ORG: precision:  83.03%; recall:  83.10%; FB1:  83.06  1332
+2018-07-22 16:25:22,560:INFO: ORG: precision:  83.03%; recall:  83.10%; FB1:  83.06  1332
+2018-07-22 16:25:22,561:INFO: PER: precision:  87.76%; recall:  80.59%; FB1:  84.03  1822
+2018-07-22 16:25:22,561:INFO: PER: precision:  87.76%; recall:  80.59%; FB1:  84.03  1822
+2018-07-22 16:25:22,892:INFO: 2018-07-22 16:25:22 epoch 12, step 1, loss: 0.7439, global_step: 8713
+2018-07-22 16:25:22,892:INFO: 2018-07-22 16:25:22 epoch 12, step 1, loss: 0.7439, global_step: 8713
+2018-07-22 16:26:22,217:INFO: 2018-07-22 16:25:22 epoch 12, step 300, loss: 0.3629, global_step: 9012
+2018-07-22 16:26:22,217:INFO: 2018-07-22 16:25:22 epoch 12, step 300, loss: 0.3629, global_step: 9012
+2018-07-22 16:27:20,488:INFO: 2018-07-22 16:25:22 epoch 12, step 600, loss: 0.3422, global_step: 9312
+2018-07-22 16:27:20,488:INFO: 2018-07-22 16:25:22 epoch 12, step 600, loss: 0.3422, global_step: 9312
+2018-07-22 16:27:57,808:INFO: 2018-07-22 16:25:22 epoch 12, step 792, loss: 0.3411, global_step: 9504
+2018-07-22 16:27:57,808:INFO: 2018-07-22 16:25:22 epoch 12, step 792, loss: 0.3411, global_step: 9504
+2018-07-22 16:27:58,001:INFO: ===========validation / test===========
+2018-07-22 16:27:58,001:INFO: ===========validation / test===========
+2018-07-22 16:28:07,545:INFO: processed 177232 tokens with 6192 phrases; found: 6007 phrases; correct: 5362.
+2018-07-22 16:28:07,545:INFO: processed 177232 tokens with 6192 phrases; found: 6007 phrases; correct: 5362.
+2018-07-22 16:28:07,546:INFO: accuracy:  98.42%; precision:  89.26%; recall:  86.60%; FB1:  87.91
+2018-07-22 16:28:07,546:INFO: accuracy:  98.42%; precision:  89.26%; recall:  86.60%; FB1:  87.91
+2018-07-22 16:28:07,546:INFO: LOC: precision:  92.76%; recall:  89.05%; FB1:  90.87  2762
+2018-07-22 16:28:07,546:INFO: LOC: precision:  92.76%; recall:  89.05%; FB1:  90.87  2762
+2018-07-22 16:28:07,546:INFO: ORG: precision:  82.70%; recall:  84.37%; FB1:  83.53  1358
+2018-07-22 16:28:07,546:INFO: ORG: precision:  82.70%; recall:  84.37%; FB1:  83.53  1358
+2018-07-22 16:28:07,546:INFO: PER: precision:  88.87%; recall:  84.53%; FB1:  86.64  1887
+2018-07-22 16:28:07,546:INFO: PER: precision:  88.87%; recall:  84.53%; FB1:  86.64  1887
+2018-07-22 16:28:07,869:INFO: 2018-07-22 16:28:07 epoch 13, step 1, loss: 0.3177, global_step: 9505
+2018-07-22 16:28:07,869:INFO: 2018-07-22 16:28:07 epoch 13, step 1, loss: 0.3177, global_step: 9505
+2018-07-22 16:29:06,386:INFO: 2018-07-22 16:28:07 epoch 13, step 300, loss: 0.2425, global_step: 9804
+2018-07-22 16:29:06,386:INFO: 2018-07-22 16:28:07 epoch 13, step 300, loss: 0.2425, global_step: 9804
+2018-07-22 16:30:04,849:INFO: 2018-07-22 16:28:07 epoch 13, step 600, loss: 0.3721, global_step: 10104
+2018-07-22 16:30:04,849:INFO: 2018-07-22 16:28:07 epoch 13, step 600, loss: 0.3721, global_step: 10104
+2018-07-22 16:30:43,449:INFO: 2018-07-22 16:28:07 epoch 13, step 792, loss: 0.2859, global_step: 10296
+2018-07-22 16:30:43,449:INFO: 2018-07-22 16:28:07 epoch 13, step 792, loss: 0.2859, global_step: 10296
+2018-07-22 16:30:43,656:INFO: ===========validation / test===========
+2018-07-22 16:30:43,656:INFO: ===========validation / test===========
+2018-07-22 16:30:53,619:INFO: processed 177232 tokens with 6192 phrases; found: 6017 phrases; correct: 5351.
+2018-07-22 16:30:53,619:INFO: processed 177232 tokens with 6192 phrases; found: 6017 phrases; correct: 5351.
+2018-07-22 16:30:53,620:INFO: accuracy:  98.39%; precision:  88.93%; recall:  86.42%; FB1:  87.66
+2018-07-22 16:30:53,620:INFO: accuracy:  98.39%; precision:  88.93%; recall:  86.42%; FB1:  87.66
+2018-07-22 16:30:53,620:INFO: LOC: precision:  91.63%; recall:  89.36%; FB1:  90.48  2806
+2018-07-22 16:30:53,620:INFO: LOC: precision:  91.63%; recall:  89.36%; FB1:  90.48  2806
+2018-07-22 16:30:53,620:INFO: ORG: precision:  84.13%; recall:  82.87%; FB1:  83.50  1311
+2018-07-22 16:30:53,620:INFO: ORG: precision:  84.13%; recall:  82.87%; FB1:  83.50  1311
+2018-07-22 16:30:53,620:INFO: PER: precision:  88.26%; recall:  84.53%; FB1:  86.35  1900
+2018-07-22 16:30:53,620:INFO: PER: precision:  88.26%; recall:  84.53%; FB1:  86.35  1900
+2018-07-22 16:30:53,999:INFO: 2018-07-22 16:30:53 epoch 14, step 1, loss: 0.6222, global_step: 10297
+2018-07-22 16:30:53,999:INFO: 2018-07-22 16:30:53 epoch 14, step 1, loss: 0.6222, global_step: 10297
+2018-07-22 16:31:55,964:INFO: 2018-07-22 16:30:53 epoch 14, step 300, loss: 0.2228, global_step: 10596
+2018-07-22 16:31:55,964:INFO: 2018-07-22 16:30:53 epoch 14, step 300, loss: 0.2228, global_step: 10596
+2018-07-22 16:32:57,541:INFO: 2018-07-22 16:30:53 epoch 14, step 600, loss: 0.219, global_step: 10896
+2018-07-22 16:32:57,541:INFO: 2018-07-22 16:30:53 epoch 14, step 600, loss: 0.219, global_step: 10896
+2018-07-22 16:33:34,980:INFO: 2018-07-22 16:30:53 epoch 14, step 792, loss: 0.3396, global_step: 11088
+2018-07-22 16:33:34,980:INFO: 2018-07-22 16:30:53 epoch 14, step 792, loss: 0.3396, global_step: 11088
+2018-07-22 16:33:35,169:INFO: ===========validation / test===========
+2018-07-22 16:33:35,169:INFO: ===========validation / test===========
+2018-07-22 16:33:44,686:INFO: processed 177232 tokens with 6192 phrases; found: 6092 phrases; correct: 5389.
+2018-07-22 16:33:44,686:INFO: processed 177232 tokens with 6192 phrases; found: 6092 phrases; correct: 5389.
+2018-07-22 16:33:44,687:INFO: accuracy:  98.37%; precision:  88.46%; recall:  87.03%; FB1:  87.74
+2018-07-22 16:33:44,687:INFO: accuracy:  98.37%; precision:  88.46%; recall:  87.03%; FB1:  87.74
+2018-07-22 16:33:44,687:INFO: LOC: precision:  91.76%; recall:  90.13%; FB1:  90.93  2826
+2018-07-22 16:33:44,687:INFO: LOC: precision:  91.76%; recall:  90.13%; FB1:  90.93  2826
+2018-07-22 16:33:44,687:INFO: ORG: precision:  85.19%; recall:  81.67%; FB1:  83.39  1276
+2018-07-22 16:33:44,687:INFO: ORG: precision:  85.19%; recall:  81.67%; FB1:  83.39  1276
+2018-07-22 16:33:44,687:INFO: PER: precision:  85.88%; recall:  86.14%; FB1:  86.01  1990
+2018-07-22 16:33:44,687:INFO: PER: precision:  85.88%; recall:  86.14%; FB1:  86.01  1990
+2018-07-22 16:33:44,957:INFO: 2018-07-22 16:33:44 epoch 15, step 1, loss: 0.2342, global_step: 11089
+2018-07-22 16:33:44,957:INFO: 2018-07-22 16:33:44 epoch 15, step 1, loss: 0.2342, global_step: 11089
+2018-07-22 16:34:47,576:INFO: 2018-07-22 16:33:44 epoch 15, step 300, loss: 0.3679, global_step: 11388
+2018-07-22 16:34:47,576:INFO: 2018-07-22 16:33:44 epoch 15, step 300, loss: 0.3679, global_step: 11388
+2018-07-22 16:35:46,084:INFO: 2018-07-22 16:33:44 epoch 15, step 600, loss: 0.1852, global_step: 11688
+2018-07-22 16:35:46,084:INFO: 2018-07-22 16:33:44 epoch 15, step 600, loss: 0.1852, global_step: 11688
+2018-07-22 16:36:23,474:INFO: 2018-07-22 16:33:44 epoch 15, step 792, loss: 0.2026, global_step: 11880
+2018-07-22 16:36:23,474:INFO: 2018-07-22 16:33:44 epoch 15, step 792, loss: 0.2026, global_step: 11880
+2018-07-22 16:36:23,661:INFO: ===========validation / test===========
+2018-07-22 16:36:23,661:INFO: ===========validation / test===========
+2018-07-22 16:36:33,256:INFO: processed 177232 tokens with 6192 phrases; found: 5952 phrases; correct: 5365.
+2018-07-22 16:36:33,256:INFO: processed 177232 tokens with 6192 phrases; found: 5952 phrases; correct: 5365.
+2018-07-22 16:36:33,256:INFO: accuracy:  98.50%; precision:  90.14%; recall:  86.64%; FB1:  88.36
+2018-07-22 16:36:33,256:INFO: accuracy:  98.50%; precision:  90.14%; recall:  86.64%; FB1:  88.36
+2018-07-22 16:36:33,256:INFO: LOC: precision:  93.04%; recall:  89.16%; FB1:  91.05  2757
+2018-07-22 16:36:33,256:INFO: LOC: precision:  93.04%; recall:  89.16%; FB1:  91.05  2757
+2018-07-22 16:36:33,256:INFO: ORG: precision:  86.22%; recall:  83.70%; FB1:  84.94  1292
+2018-07-22 16:36:33,256:INFO: ORG: precision:  86.22%; recall:  83.70%; FB1:  84.94  1292
+2018-07-22 16:36:33,256:INFO: PER: precision:  88.60%; recall:  84.98%; FB1:  86.75  1903
+2018-07-22 16:36:33,256:INFO: PER: precision:  88.60%; recall:  84.98%; FB1:  86.75  1903
+2018-07-22 16:36:33,546:INFO: 2018-07-22 16:36:33 epoch 16, step 1, loss: 0.2113, global_step: 11881
+2018-07-22 16:36:33,546:INFO: 2018-07-22 16:36:33 epoch 16, step 1, loss: 0.2113, global_step: 11881
+2018-07-22 16:37:33,385:INFO: 2018-07-22 16:36:33 epoch 16, step 300, loss: 0.1419, global_step: 12180
+2018-07-22 16:37:33,385:INFO: 2018-07-22 16:36:33 epoch 16, step 300, loss: 0.1419, global_step: 12180
+2018-07-22 16:38:32,070:INFO: 2018-07-22 16:36:33 epoch 16, step 600, loss: 0.1434, global_step: 12480
+2018-07-22 16:38:32,070:INFO: 2018-07-22 16:36:33 epoch 16, step 600, loss: 0.1434, global_step: 12480
+2018-07-22 16:39:09,617:INFO: 2018-07-22 16:36:33 epoch 16, step 792, loss: 0.2237, global_step: 12672
+2018-07-22 16:39:09,617:INFO: 2018-07-22 16:36:33 epoch 16, step 792, loss: 0.2237, global_step: 12672
+2018-07-22 16:39:09,808:INFO: ===========validation / test===========
+2018-07-22 16:39:09,808:INFO: ===========validation / test===========
+2018-07-22 16:39:19,492:INFO: processed 177232 tokens with 6192 phrases; found: 6004 phrases; correct: 5376.
+2018-07-22 16:39:19,492:INFO: processed 177232 tokens with 6192 phrases; found: 6004 phrases; correct: 5376.
+2018-07-22 16:39:19,493:INFO: accuracy:  98.51%; precision:  89.54%; recall:  86.82%; FB1:  88.16
+2018-07-22 16:39:19,493:INFO: accuracy:  98.51%; precision:  89.54%; recall:  86.82%; FB1:  88.16
+2018-07-22 16:39:19,493:INFO: LOC: precision:  91.64%; recall:  90.27%; FB1:  90.95  2834
+2018-07-22 16:39:19,493:INFO: LOC: precision:  91.64%; recall:  90.27%; FB1:  90.95  2834
+2018-07-22 16:39:19,493:INFO: ORG: precision:  85.49%; recall:  84.07%; FB1:  84.77  1309
+2018-07-22 16:39:19,493:INFO: ORG: precision:  85.49%; recall:  84.07%; FB1:  84.77  1309
+2018-07-22 16:39:19,493:INFO: PER: precision:  89.20%; recall:  83.67%; FB1:  86.35  1861
+2018-07-22 16:39:19,493:INFO: PER: precision:  89.20%; recall:  83.67%; FB1:  86.35  1861
+2018-07-22 16:39:19,760:INFO: 2018-07-22 16:39:19 epoch 17, step 1, loss: 0.3036, global_step: 12673
+2018-07-22 16:39:19,760:INFO: 2018-07-22 16:39:19 epoch 17, step 1, loss: 0.3036, global_step: 12673
+2018-07-22 16:40:18,154:INFO: 2018-07-22 16:39:19 epoch 17, step 300, loss: 0.203, global_step: 12972
+2018-07-22 16:40:18,154:INFO: 2018-07-22 16:39:19 epoch 17, step 300, loss: 0.203, global_step: 12972
+2018-07-22 16:41:16,712:INFO: 2018-07-22 16:39:19 epoch 17, step 600, loss: 0.141, global_step: 13272
+2018-07-22 16:41:16,712:INFO: 2018-07-22 16:39:19 epoch 17, step 600, loss: 0.141, global_step: 13272
+2018-07-22 16:41:54,411:INFO: 2018-07-22 16:39:19 epoch 17, step 792, loss: 0.1179, global_step: 13464
+2018-07-22 16:41:54,411:INFO: 2018-07-22 16:39:19 epoch 17, step 792, loss: 0.1179, global_step: 13464
+2018-07-22 16:41:54,607:INFO: ===========validation / test===========
+2018-07-22 16:41:54,607:INFO: ===========validation / test===========
+2018-07-22 16:42:04,225:INFO: processed 177232 tokens with 6192 phrases; found: 6011 phrases; correct: 5339.
+2018-07-22 16:42:04,225:INFO: processed 177232 tokens with 6192 phrases; found: 6011 phrases; correct: 5339.
+2018-07-22 16:42:04,226:INFO: accuracy:  98.33%; precision:  88.82%; recall:  86.22%; FB1:  87.50
+2018-07-22 16:42:04,226:INFO: accuracy:  98.33%; precision:  88.82%; recall:  86.22%; FB1:  87.50
+2018-07-22 16:42:04,226:INFO: LOC: precision:  93.06%; recall:  88.60%; FB1:  90.78  2739
+2018-07-22 16:42:04,226:INFO: LOC: precision:  93.06%; recall:  88.60%; FB1:  90.78  2739
+2018-07-22 16:42:04,226:INFO: ORG: precision:  80.49%; recall:  84.30%; FB1:  82.35  1394
+2018-07-22 16:42:04,226:INFO: ORG: precision:  80.49%; recall:  84.30%; FB1:  82.35  1394
+2018-07-22 16:42:04,226:INFO: PER: precision:  88.82%; recall:  84.07%; FB1:  86.38  1878
+2018-07-22 16:42:04,226:INFO: PER: precision:  88.82%; recall:  84.07%; FB1:  86.38  1878
+2018-07-22 16:42:04,490:INFO: 2018-07-22 16:42:04 epoch 18, step 1, loss: 0.1521, global_step: 13465
+2018-07-22 16:42:04,490:INFO: 2018-07-22 16:42:04 epoch 18, step 1, loss: 0.1521, global_step: 13465
+2018-07-22 16:43:03,885:INFO: 2018-07-22 16:42:04 epoch 18, step 300, loss: 0.3593, global_step: 13764
+2018-07-22 16:43:03,885:INFO: 2018-07-22 16:42:04 epoch 18, step 300, loss: 0.3593, global_step: 13764
+2018-07-22 16:44:02,004:INFO: 2018-07-22 16:42:04 epoch 18, step 600, loss: 0.4059, global_step: 14064
+2018-07-22 16:44:02,004:INFO: 2018-07-22 16:42:04 epoch 18, step 600, loss: 0.4059, global_step: 14064
+2018-07-22 16:44:39,097:INFO: 2018-07-22 16:42:04 epoch 18, step 792, loss: 0.1837, global_step: 14256
+2018-07-22 16:44:39,097:INFO: 2018-07-22 16:42:04 epoch 18, step 792, loss: 0.1837, global_step: 14256
+2018-07-22 16:44:39,298:INFO: ===========validation / test===========
+2018-07-22 16:44:39,298:INFO: ===========validation / test===========
+2018-07-22 16:44:48,811:INFO: processed 177232 tokens with 6192 phrases; found: 5967 phrases; correct: 5373.
+2018-07-22 16:44:48,811:INFO: processed 177232 tokens with 6192 phrases; found: 5967 phrases; correct: 5373.
+2018-07-22 16:44:48,811:INFO: accuracy:  98.54%; precision:  90.05%; recall:  86.77%; FB1:  88.38
+2018-07-22 16:44:48,811:INFO: accuracy:  98.54%; precision:  90.05%; recall:  86.77%; FB1:  88.38
+2018-07-22 16:44:48,811:INFO: LOC: precision:  92.60%; recall:  90.09%; FB1:  91.33  2799
+2018-07-22 16:44:48,811:INFO: LOC: precision:  92.60%; recall:  90.09%; FB1:  91.33  2799
+2018-07-22 16:44:48,811:INFO: ORG: precision:  85.32%; recall:  85.12%; FB1:  85.22  1328
+2018-07-22 16:44:48,811:INFO: ORG: precision:  85.32%; recall:  85.12%; FB1:  85.22  1328
+2018-07-22 16:44:48,812:INFO: PER: precision:  89.57%; recall:  83.06%; FB1:  86.19  1840
+2018-07-22 16:44:48,812:INFO: PER: precision:  89.57%; recall:  83.06%; FB1:  86.19  1840
+2018-07-22 16:44:49,113:INFO: 2018-07-22 16:44:48 epoch 19, step 1, loss: 0.1528, global_step: 14257
+2018-07-22 16:44:49,113:INFO: 2018-07-22 16:44:48 epoch 19, step 1, loss: 0.1528, global_step: 14257
+2018-07-22 16:45:47,267:INFO: 2018-07-22 16:44:48 epoch 19, step 300, loss: 0.2286, global_step: 14556
+2018-07-22 16:45:47,267:INFO: 2018-07-22 16:44:48 epoch 19, step 300, loss: 0.2286, global_step: 14556
+2018-07-22 16:46:45,616:INFO: 2018-07-22 16:44:48 epoch 19, step 600, loss: 0.1989, global_step: 14856
+2018-07-22 16:46:45,616:INFO: 2018-07-22 16:44:48 epoch 19, step 600, loss: 0.1989, global_step: 14856
+2018-07-22 16:47:23,117:INFO: 2018-07-22 16:44:48 epoch 19, step 792, loss: 0.2388, global_step: 15048
+2018-07-22 16:47:23,117:INFO: 2018-07-22 16:44:48 epoch 19, step 792, loss: 0.2388, global_step: 15048
+2018-07-22 16:47:23,308:INFO: ===========validation / test===========
+2018-07-22 16:47:23,308:INFO: ===========validation / test===========
+2018-07-22 16:47:32,944:INFO: processed 177232 tokens with 6192 phrases; found: 5926 phrases; correct: 5364.
+2018-07-22 16:47:32,944:INFO: processed 177232 tokens with 6192 phrases; found: 5926 phrases; correct: 5364.
+2018-07-22 16:47:32,944:INFO: accuracy:  98.54%; precision:  90.52%; recall:  86.63%; FB1:  88.53
+2018-07-22 16:47:32,944:INFO: accuracy:  98.54%; precision:  90.52%; recall:  86.63%; FB1:  88.53
+2018-07-22 16:47:32,944:INFO: LOC: precision:  93.60%; recall:  89.54%; FB1:  91.53  2752
+2018-07-22 16:47:32,944:INFO: LOC: precision:  93.60%; recall:  89.54%; FB1:  91.53  2752
+2018-07-22 16:47:32,944:INFO: ORG: precision:  85.95%; recall:  84.60%; FB1:  85.27  1310
+2018-07-22 16:47:32,944:INFO: ORG: precision:  85.95%; recall:  84.60%; FB1:  85.27  1310
+2018-07-22 16:47:32,945:INFO: PER: precision:  89.16%; recall:  83.77%; FB1:  86.38  1864
+2018-07-22 16:47:32,945:INFO: PER: precision:  89.16%; recall:  83.77%; FB1:  86.38  1864
+2018-07-22 16:47:33,257:INFO: 2018-07-22 16:47:32 epoch 20, step 1, loss: 0.1695, global_step: 15049
+2018-07-22 16:47:33,257:INFO: 2018-07-22 16:47:32 epoch 20, step 1, loss: 0.1695, global_step: 15049
+2018-07-22 16:48:31,716:INFO: 2018-07-22 16:47:32 epoch 20, step 300, loss: 0.5093, global_step: 15348
+2018-07-22 16:48:31,716:INFO: 2018-07-22 16:47:32 epoch 20, step 300, loss: 0.5093, global_step: 15348
+2018-07-22 16:49:30,410:INFO: 2018-07-22 16:47:32 epoch 20, step 600, loss: 0.2289, global_step: 15648
+2018-07-22 16:49:30,410:INFO: 2018-07-22 16:47:32 epoch 20, step 600, loss: 0.2289, global_step: 15648
+2018-07-22 16:50:08,757:INFO: 2018-07-22 16:47:32 epoch 20, step 792, loss: 0.06225, global_step: 15840
+2018-07-22 16:50:08,757:INFO: 2018-07-22 16:47:32 epoch 20, step 792, loss: 0.06225, global_step: 15840
+2018-07-22 16:50:08,947:INFO: ===========validation / test===========
+2018-07-22 16:50:08,947:INFO: ===========validation / test===========
+2018-07-22 16:50:18,667:INFO: processed 177232 tokens with 6192 phrases; found: 5979 phrases; correct: 5370.
+2018-07-22 16:50:18,667:INFO: processed 177232 tokens with 6192 phrases; found: 5979 phrases; correct: 5370.
+2018-07-22 16:50:18,668:INFO: accuracy:  98.52%; precision:  89.81%; recall:  86.72%; FB1:  88.24
+2018-07-22 16:50:18,668:INFO: accuracy:  98.52%; precision:  89.81%; recall:  86.72%; FB1:  88.24
+2018-07-22 16:50:18,668:INFO: LOC: precision:  92.52%; recall:  89.40%; FB1:  90.93  2780
+2018-07-22 16:50:18,668:INFO: LOC: precision:  92.52%; recall:  89.40%; FB1:  90.93  2780
+2018-07-22 16:50:18,668:INFO: ORG: precision:  85.18%; recall:  85.50%; FB1:  85.34  1336
+2018-07-22 16:50:18,668:INFO: ORG: precision:  85.18%; recall:  85.50%; FB1:  85.34  1336
+2018-07-22 16:50:18,668:INFO: PER: precision:  89.10%; recall:  83.67%; FB1:  86.30  1863
+2018-07-22 16:50:18,668:INFO: PER: precision:  89.10%; recall:  83.67%; FB1:  86.30  1863
+2018-07-22 16:50:18,930:INFO: 2018-07-22 16:50:18 epoch 21, step 1, loss: 0.179, global_step: 15841
+2018-07-22 16:50:18,930:INFO: 2018-07-22 16:50:18 epoch 21, step 1, loss: 0.179, global_step: 15841
+2018-07-22 16:51:17,746:INFO: 2018-07-22 16:50:18 epoch 21, step 300, loss: 0.1726, global_step: 16140
+2018-07-22 16:51:17,746:INFO: 2018-07-22 16:50:18 epoch 21, step 300, loss: 0.1726, global_step: 16140
+2018-07-22 16:52:16,759:INFO: 2018-07-22 16:50:18 epoch 21, step 600, loss: 0.3064, global_step: 16440
+2018-07-22 16:52:16,759:INFO: 2018-07-22 16:50:18 epoch 21, step 600, loss: 0.3064, global_step: 16440
+2018-07-22 16:52:54,220:INFO: 2018-07-22 16:50:18 epoch 21, step 792, loss: 0.1329, global_step: 16632
+2018-07-22 16:52:54,220:INFO: 2018-07-22 16:50:18 epoch 21, step 792, loss: 0.1329, global_step: 16632
+2018-07-22 16:52:54,409:INFO: ===========validation / test===========
+2018-07-22 16:52:54,409:INFO: ===========validation / test===========
+2018-07-22 16:53:03,942:INFO: processed 177232 tokens with 6192 phrases; found: 5985 phrases; correct: 5393.
+2018-07-22 16:53:03,942:INFO: processed 177232 tokens with 6192 phrases; found: 5985 phrases; correct: 5393.
+2018-07-22 16:53:03,942:INFO: accuracy:  98.50%; precision:  90.11%; recall:  87.10%; FB1:  88.58
+2018-07-22 16:53:03,942:INFO: accuracy:  98.50%; precision:  90.11%; recall:  87.10%; FB1:  88.58
+2018-07-22 16:53:03,942:INFO: LOC: precision:  93.33%; recall:  89.54%; FB1:  91.40  2760
+2018-07-22 16:53:03,942:INFO: LOC: precision:  93.33%; recall:  89.54%; FB1:  91.40  2760
+2018-07-22 16:53:03,942:INFO: ORG: precision:  85.86%; recall:  84.82%; FB1:  85.34  1315
+2018-07-22 16:53:03,942:INFO: ORG: precision:  85.86%; recall:  84.82%; FB1:  85.34  1315
+2018-07-22 16:53:03,943:INFO: PER: precision:  88.38%; recall:  85.08%; FB1:  86.70  1910
+2018-07-22 16:53:03,943:INFO: PER: precision:  88.38%; recall:  85.08%; FB1:  86.70  1910
+2018-07-22 16:53:04,232:INFO: 2018-07-22 16:53:03 epoch 22, step 1, loss: 0.1751, global_step: 16633
+2018-07-22 16:53:04,232:INFO: 2018-07-22 16:53:03 epoch 22, step 1, loss: 0.1751, global_step: 16633
+2018-07-22 16:54:03,728:INFO: 2018-07-22 16:53:03 epoch 22, step 300, loss: 0.1997, global_step: 16932
+2018-07-22 16:54:03,728:INFO: 2018-07-22 16:53:03 epoch 22, step 300, loss: 0.1997, global_step: 16932
+2018-07-22 16:55:02,635:INFO: 2018-07-22 16:53:03 epoch 22, step 600, loss: 0.3997, global_step: 17232
+2018-07-22 16:55:02,635:INFO: 2018-07-22 16:53:03 epoch 22, step 600, loss: 0.3997, global_step: 17232
+2018-07-22 16:55:40,454:INFO: 2018-07-22 16:53:03 epoch 22, step 792, loss: 0.4065, global_step: 17424
+2018-07-22 16:55:40,454:INFO: 2018-07-22 16:53:03 epoch 22, step 792, loss: 0.4065, global_step: 17424
+2018-07-22 16:55:40,652:INFO: ===========validation / test===========
+2018-07-22 16:55:40,652:INFO: ===========validation / test===========
+2018-07-22 16:55:50,444:INFO: processed 177232 tokens with 6192 phrases; found: 6129 phrases; correct: 5422.
+2018-07-22 16:55:50,444:INFO: processed 177232 tokens with 6192 phrases; found: 6129 phrases; correct: 5422.
+2018-07-22 16:55:50,445:INFO: accuracy:  98.44%; precision:  88.46%; recall:  87.56%; FB1:  88.01
+2018-07-22 16:55:50,445:INFO: accuracy:  98.44%; precision:  88.46%; recall:  87.56%; FB1:  88.01
+2018-07-22 16:55:50,445:INFO: LOC: precision:  92.31%; recall:  89.29%; FB1:  90.78  2783
+2018-07-22 16:55:50,445:INFO: LOC: precision:  92.31%; recall:  89.29%; FB1:  90.78  2783
+2018-07-22 16:55:50,445:INFO: ORG: precision:  83.27%; recall:  85.65%; FB1:  84.44  1369
+2018-07-22 16:55:50,445:INFO: ORG: precision:  83.27%; recall:  85.65%; FB1:  84.44  1369
+2018-07-22 16:55:50,445:INFO: PER: precision:  86.65%; recall:  86.34%; FB1:  86.49  1977
+2018-07-22 16:55:50,445:INFO: PER: precision:  86.65%; recall:  86.34%; FB1:  86.49  1977
+2018-07-22 16:55:50,760:INFO: 2018-07-22 16:55:50 epoch 23, step 1, loss: 0.0896, global_step: 17425
+2018-07-22 16:55:50,760:INFO: 2018-07-22 16:55:50 epoch 23, step 1, loss: 0.0896, global_step: 17425
+2018-07-22 16:56:49,719:INFO: 2018-07-22 16:55:50 epoch 23, step 300, loss: 0.2156, global_step: 17724
+2018-07-22 16:56:49,719:INFO: 2018-07-22 16:55:50 epoch 23, step 300, loss: 0.2156, global_step: 17724
+2018-07-22 16:57:48,828:INFO: 2018-07-22 16:55:50 epoch 23, step 600, loss: 0.2235, global_step: 18024
+2018-07-22 16:57:48,828:INFO: 2018-07-22 16:55:50 epoch 23, step 600, loss: 0.2235, global_step: 18024
+2018-07-22 16:58:26,498:INFO: 2018-07-22 16:55:50 epoch 23, step 792, loss: 0.1025, global_step: 18216
+2018-07-22 16:58:26,498:INFO: 2018-07-22 16:55:50 epoch 23, step 792, loss: 0.1025, global_step: 18216
+2018-07-22 16:58:26,705:INFO: ===========validation / test===========
+2018-07-22 16:58:26,705:INFO: ===========validation / test===========
+2018-07-22 16:58:36,370:INFO: processed 177232 tokens with 6192 phrases; found: 5922 phrases; correct: 5369.
+2018-07-22 16:58:36,370:INFO: processed 177232 tokens with 6192 phrases; found: 5922 phrases; correct: 5369.
+2018-07-22 16:58:36,371:INFO: accuracy:  98.53%; precision:  90.66%; recall:  86.71%; FB1:  88.64
+2018-07-22 16:58:36,371:INFO: accuracy:  98.53%; precision:  90.66%; recall:  86.71%; FB1:  88.64
+2018-07-22 16:58:36,371:INFO: LOC: precision:  93.35%; recall:  89.29%; FB1:  91.28  2752
+2018-07-22 16:58:36,371:INFO: LOC: precision:  93.35%; recall:  89.29%; FB1:  91.28  2752
+2018-07-22 16:58:36,371:INFO: ORG: precision:  85.35%; recall:  83.62%; FB1:  84.48  1304
+2018-07-22 16:58:36,371:INFO: ORG: precision:  85.35%; recall:  83.62%; FB1:  84.48  1304
+2018-07-22 16:58:36,371:INFO: PER: precision:  90.41%; recall:  85.03%; FB1:  87.64  1866
+2018-07-22 16:58:36,371:INFO: PER: precision:  90.41%; recall:  85.03%; FB1:  87.64  1866
+2018-07-22 16:58:36,653:INFO: 2018-07-22 16:58:36 epoch 24, step 1, loss: 0.06225, global_step: 18217
+2018-07-22 16:58:36,653:INFO: 2018-07-22 16:58:36 epoch 24, step 1, loss: 0.06225, global_step: 18217
+2018-07-22 16:59:34,999:INFO: 2018-07-22 16:58:36 epoch 24, step 300, loss: 0.1119, global_step: 18516
+2018-07-22 16:59:34,999:INFO: 2018-07-22 16:58:36 epoch 24, step 300, loss: 0.1119, global_step: 18516
+2018-07-22 17:00:34,468:INFO: 2018-07-22 16:58:36 epoch 24, step 600, loss: 0.2075, global_step: 18816
+2018-07-22 17:00:34,468:INFO: 2018-07-22 16:58:36 epoch 24, step 600, loss: 0.2075, global_step: 18816
+2018-07-22 17:01:12,290:INFO: 2018-07-22 16:58:36 epoch 24, step 792, loss: 0.03393, global_step: 19008
+2018-07-22 17:01:12,290:INFO: 2018-07-22 16:58:36 epoch 24, step 792, loss: 0.03393, global_step: 19008
+2018-07-22 17:01:12,490:INFO: ===========validation / test===========
+2018-07-22 17:01:12,490:INFO: ===========validation / test===========
+2018-07-22 17:01:22,091:INFO: processed 177232 tokens with 6192 phrases; found: 5964 phrases; correct: 5334.
+2018-07-22 17:01:22,091:INFO: processed 177232 tokens with 6192 phrases; found: 5964 phrases; correct: 5334.
+2018-07-22 17:01:22,091:INFO: accuracy:  98.40%; precision:  89.44%; recall:  86.14%; FB1:  87.76
+2018-07-22 17:01:22,091:INFO: accuracy:  98.40%; precision:  89.44%; recall:  86.14%; FB1:  87.76
+2018-07-22 17:01:22,091:INFO: LOC: precision:  93.08%; recall:  89.33%; FB1:  91.17  2761
+2018-07-22 17:01:22,091:INFO: LOC: precision:  93.08%; recall:  89.33%; FB1:  91.17  2761
+2018-07-22 17:01:22,091:INFO: ORG: precision:  82.48%; recall:  85.57%; FB1:  84.00  1381
+2018-07-22 17:01:22,091:INFO: ORG: precision:  82.48%; recall:  85.57%; FB1:  84.00  1381
+2018-07-22 17:01:22,091:INFO: PER: precision:  89.19%; recall:  81.91%; FB1:  85.39  1822
+2018-07-22 17:01:22,091:INFO: PER: precision:  89.19%; recall:  81.91%; FB1:  85.39  1822
+2018-07-22 17:01:22,369:INFO: 2018-07-22 17:01:22 epoch 25, step 1, loss: 0.09397, global_step: 19009
+2018-07-22 17:01:22,369:INFO: 2018-07-22 17:01:22 epoch 25, step 1, loss: 0.09397, global_step: 19009
+2018-07-22 17:02:21,174:INFO: 2018-07-22 17:01:22 epoch 25, step 300, loss: 0.03706, global_step: 19308
+2018-07-22 17:02:21,174:INFO: 2018-07-22 17:01:22 epoch 25, step 300, loss: 0.03706, global_step: 19308
+2018-07-22 17:03:20,163:INFO: 2018-07-22 17:01:22 epoch 25, step 600, loss: 0.1208, global_step: 19608
+2018-07-22 17:03:20,163:INFO: 2018-07-22 17:01:22 epoch 25, step 600, loss: 0.1208, global_step: 19608
+2018-07-22 17:03:58,143:INFO: 2018-07-22 17:01:22 epoch 25, step 792, loss: 0.08535, global_step: 19800
+2018-07-22 17:03:58,143:INFO: 2018-07-22 17:01:22 epoch 25, step 792, loss: 0.08535, global_step: 19800
+2018-07-22 17:03:58,341:INFO: ===========validation / test===========
+2018-07-22 17:03:58,341:INFO: ===========validation / test===========
+2018-07-22 17:04:07,999:INFO: processed 177232 tokens with 6192 phrases; found: 6026 phrases; correct: 5398.
+2018-07-22 17:04:07,999:INFO: processed 177232 tokens with 6192 phrases; found: 6026 phrases; correct: 5398.
+2018-07-22 17:04:07,999:INFO: accuracy:  98.48%; precision:  89.58%; recall:  87.18%; FB1:  88.36
+2018-07-22 17:04:07,999:INFO: accuracy:  98.48%; precision:  89.58%; recall:  87.18%; FB1:  88.36
+2018-07-22 17:04:07,999:INFO: LOC: precision:  92.96%; recall:  90.02%; FB1:  91.47  2786
+2018-07-22 17:04:07,999:INFO: LOC: precision:  92.96%; recall:  90.02%; FB1:  91.47  2786
+2018-07-22 17:04:07,999:INFO: ORG: precision:  83.47%; recall:  86.10%; FB1:  84.76  1373
+2018-07-22 17:04:07,999:INFO: ORG: precision:  83.47%; recall:  86.10%; FB1:  84.76  1373
+2018-07-22 17:04:08,000:INFO: PER: precision:  89.02%; recall:  83.77%; FB1:  86.32  1867
+2018-07-22 17:04:08,000:INFO: PER: precision:  89.02%; recall:  83.77%; FB1:  86.32  1867
+2018-07-22 17:04:08,245:INFO: 2018-07-22 17:04:08 epoch 26, step 1, loss: 0.1864, global_step: 19801
+2018-07-22 17:04:08,245:INFO: 2018-07-22 17:04:08 epoch 26, step 1, loss: 0.1864, global_step: 19801
+2018-07-22 17:05:07,277:INFO: 2018-07-22 17:04:08 epoch 26, step 300, loss: 0.1705, global_step: 20100
+2018-07-22 17:05:07,277:INFO: 2018-07-22 17:04:08 epoch 26, step 300, loss: 0.1705, global_step: 20100
+2018-07-22 17:06:06,380:INFO: 2018-07-22 17:04:08 epoch 26, step 600, loss: 0.197, global_step: 20400
+2018-07-22 17:06:06,380:INFO: 2018-07-22 17:04:08 epoch 26, step 600, loss: 0.197, global_step: 20400
+2018-07-22 17:06:44,005:INFO: 2018-07-22 17:04:08 epoch 26, step 792, loss: 0.2165, global_step: 20592
+2018-07-22 17:06:44,005:INFO: 2018-07-22 17:04:08 epoch 26, step 792, loss: 0.2165, global_step: 20592
+2018-07-22 17:06:44,201:INFO: ===========validation / test===========
+2018-07-22 17:06:44,201:INFO: ===========validation / test===========
+2018-07-22 17:06:53,957:INFO: processed 177232 tokens with 6192 phrases; found: 5947 phrases; correct: 5378.
+2018-07-22 17:06:53,957:INFO: processed 177232 tokens with 6192 phrases; found: 5947 phrases; correct: 5378.
+2018-07-22 17:06:53,957:INFO: accuracy:  98.52%; precision:  90.43%; recall:  86.85%; FB1:  88.61
+2018-07-22 17:06:53,957:INFO: accuracy:  98.52%; precision:  90.43%; recall:  86.85%; FB1:  88.61
+2018-07-22 17:06:53,958:INFO: LOC: precision:  93.46%; recall:  90.44%; FB1:  91.93  2784
+2018-07-22 17:06:53,958:INFO: LOC: precision:  93.46%; recall:  90.44%; FB1:  91.93  2784
+2018-07-22 17:06:53,958:INFO: ORG: precision:  86.04%; recall:  83.85%; FB1:  84.93  1297
+2018-07-22 17:06:53,958:INFO: ORG: precision:  86.04%; recall:  83.85%; FB1:  84.93  1297
+2018-07-22 17:06:53,958:INFO: PER: precision:  88.96%; recall:  83.67%; FB1:  86.23  1866
+2018-07-22 17:06:53,958:INFO: PER: precision:  88.96%; recall:  83.67%; FB1:  86.23  1866
+2018-07-22 17:06:54,288:INFO: 2018-07-22 17:06:53 epoch 27, step 1, loss: 0.1174, global_step: 20593
+2018-07-22 17:06:54,288:INFO: 2018-07-22 17:06:53 epoch 27, step 1, loss: 0.1174, global_step: 20593
+2018-07-22 17:07:54,337:INFO: 2018-07-22 17:06:53 epoch 27, step 300, loss: 0.1499, global_step: 20892
+2018-07-22 17:07:54,337:INFO: 2018-07-22 17:06:53 epoch 27, step 300, loss: 0.1499, global_step: 20892
+2018-07-22 17:08:54,178:INFO: 2018-07-22 17:06:53 epoch 27, step 600, loss: 0.07257, global_step: 21192
+2018-07-22 17:08:54,178:INFO: 2018-07-22 17:06:53 epoch 27, step 600, loss: 0.07257, global_step: 21192
+2018-07-22 17:09:31,984:INFO: 2018-07-22 17:06:53 epoch 27, step 792, loss: 0.1971, global_step: 21384
+2018-07-22 17:09:31,984:INFO: 2018-07-22 17:06:53 epoch 27, step 792, loss: 0.1971, global_step: 21384
+2018-07-22 17:09:32,175:INFO: ===========validation / test===========
+2018-07-22 17:09:32,175:INFO: ===========validation / test===========
+2018-07-22 17:09:41,722:INFO: processed 177232 tokens with 6192 phrases; found: 6020 phrases; correct: 5396.
+2018-07-22 17:09:41,722:INFO: processed 177232 tokens with 6192 phrases; found: 6020 phrases; correct: 5396.
+2018-07-22 17:09:41,722:INFO: accuracy:  98.52%; precision:  89.63%; recall:  87.14%; FB1:  88.37
+2018-07-22 17:09:41,722:INFO: accuracy:  98.52%; precision:  89.63%; recall:  87.14%; FB1:  88.37
+2018-07-22 17:09:41,722:INFO: LOC: precision:  92.50%; recall:  89.99%; FB1:  91.23  2799
+2018-07-22 17:09:41,722:INFO: LOC: precision:  92.50%; recall:  89.99%; FB1:  91.23  2799
+2018-07-22 17:09:41,722:INFO: ORG: precision:  85.44%; recall:  85.50%; FB1:  85.47  1332
+2018-07-22 17:09:41,722:INFO: ORG: precision:  85.44%; recall:  85.50%; FB1:  85.47  1332
+2018-07-22 17:09:41,723:INFO: PER: precision:  88.35%; recall:  84.12%; FB1:  86.19  1889
+2018-07-22 17:09:41,723:INFO: PER: precision:  88.35%; recall:  84.12%; FB1:  86.19  1889
+2018-07-22 17:09:42,030:INFO: 2018-07-22 17:09:41 epoch 28, step 1, loss: 0.03284, global_step: 21385
+2018-07-22 17:09:42,030:INFO: 2018-07-22 17:09:41 epoch 28, step 1, loss: 0.03284, global_step: 21385
+2018-07-22 17:10:40,823:INFO: 2018-07-22 17:09:41 epoch 28, step 300, loss: 0.1743, global_step: 21684
+2018-07-22 17:10:40,823:INFO: 2018-07-22 17:09:41 epoch 28, step 300, loss: 0.1743, global_step: 21684
+2018-07-22 17:11:40,049:INFO: 2018-07-22 17:09:41 epoch 28, step 600, loss: 0.09708, global_step: 21984
+2018-07-22 17:11:40,049:INFO: 2018-07-22 17:09:41 epoch 28, step 600, loss: 0.09708, global_step: 21984
+2018-07-22 17:12:17,779:INFO: 2018-07-22 17:09:41 epoch 28, step 792, loss: 0.03143, global_step: 22176
+2018-07-22 17:12:17,779:INFO: 2018-07-22 17:09:41 epoch 28, step 792, loss: 0.03143, global_step: 22176
+2018-07-22 17:12:17,967:INFO: ===========validation / test===========
+2018-07-22 17:12:17,967:INFO: ===========validation / test===========
+2018-07-22 17:12:27,728:INFO: processed 177232 tokens with 6192 phrases; found: 6019 phrases; correct: 5398.
+2018-07-22 17:12:27,728:INFO: processed 177232 tokens with 6192 phrases; found: 6019 phrases; correct: 5398.
+2018-07-22 17:12:27,728:INFO: accuracy:  98.53%; precision:  89.68%; recall:  87.18%; FB1:  88.41
+2018-07-22 17:12:27,728:INFO: accuracy:  98.53%; precision:  89.68%; recall:  87.18%; FB1:  88.41
+2018-07-22 17:12:27,728:INFO: LOC: precision:  93.38%; recall:  89.75%; FB1:  91.53  2765
+2018-07-22 17:12:27,728:INFO: LOC: precision:  93.38%; recall:  89.75%; FB1:  91.53  2765
+2018-07-22 17:12:27,729:INFO: ORG: precision:  84.18%; recall:  85.57%; FB1:  84.87  1353
+2018-07-22 17:12:27,729:INFO: ORG: precision:  84.18%; recall:  85.57%; FB1:  84.87  1353
+2018-07-22 17:12:27,729:INFO: PER: precision:  88.22%; recall:  84.53%; FB1:  86.33  1901
+2018-07-22 17:12:27,729:INFO: PER: precision:  88.22%; recall:  84.53%; FB1:  86.33  1901
+2018-07-22 17:12:27,984:INFO: 2018-07-22 17:12:27 epoch 29, step 1, loss: 0.1108, global_step: 22177
+2018-07-22 17:12:27,984:INFO: 2018-07-22 17:12:27 epoch 29, step 1, loss: 0.1108, global_step: 22177
+2018-07-22 17:13:26,853:INFO: 2018-07-22 17:12:27 epoch 29, step 300, loss: 0.08854, global_step: 22476
+2018-07-22 17:13:26,853:INFO: 2018-07-22 17:12:27 epoch 29, step 300, loss: 0.08854, global_step: 22476
+2018-07-22 17:14:26,211:INFO: 2018-07-22 17:12:27 epoch 29, step 600, loss: 0.2075, global_step: 22776
+2018-07-22 17:14:26,211:INFO: 2018-07-22 17:12:27 epoch 29, step 600, loss: 0.2075, global_step: 22776
+2018-07-22 17:15:05,064:INFO: 2018-07-22 17:12:27 epoch 29, step 792, loss: 0.5667, global_step: 22968
+2018-07-22 17:15:05,064:INFO: 2018-07-22 17:12:27 epoch 29, step 792, loss: 0.5667, global_step: 22968
+2018-07-22 17:15:05,253:INFO: ===========validation / test===========
+2018-07-22 17:15:05,253:INFO: ===========validation / test===========
+2018-07-22 17:15:15,071:INFO: processed 177232 tokens with 6192 phrases; found: 6128 phrases; correct: 5452.
+2018-07-22 17:15:15,071:INFO: processed 177232 tokens with 6192 phrases; found: 6128 phrases; correct: 5452.
+2018-07-22 17:15:15,071:INFO: accuracy:  98.49%; precision:  88.97%; recall:  88.05%; FB1:  88.51
+2018-07-22 17:15:15,071:INFO: accuracy:  98.49%; precision:  88.97%; recall:  88.05%; FB1:  88.51
+2018-07-22 17:15:15,071:INFO: LOC: precision:  92.67%; recall:  89.64%; FB1:  91.13  2783
+2018-07-22 17:15:15,071:INFO: LOC: precision:  92.67%; recall:  89.64%; FB1:  91.13  2783
+2018-07-22 17:15:15,071:INFO: ORG: precision:  82.30%; recall:  87.68%; FB1:  84.90  1418
+2018-07-22 17:15:15,071:INFO: ORG: precision:  82.30%; recall:  87.68%; FB1:  84.90  1418
+2018-07-22 17:15:15,072:INFO: PER: precision:  88.53%; recall:  85.99%; FB1:  87.24  1927
+2018-07-22 17:15:15,072:INFO: PER: precision:  88.53%; recall:  85.99%; FB1:  87.24  1927
+2018-07-22 17:15:15,378:INFO: 2018-07-22 17:15:15 epoch 30, step 1, loss: 0.03525, global_step: 22969
+2018-07-22 17:15:15,378:INFO: 2018-07-22 17:15:15 epoch 30, step 1, loss: 0.03525, global_step: 22969
+2018-07-22 17:16:16,586:INFO: 2018-07-22 17:15:15 epoch 30, step 300, loss: 0.1803, global_step: 23268
+2018-07-22 17:16:16,586:INFO: 2018-07-22 17:15:15 epoch 30, step 300, loss: 0.1803, global_step: 23268
+2018-07-22 17:17:17,114:INFO: 2018-07-22 17:15:15 epoch 30, step 600, loss: 0.1167, global_step: 23568
+2018-07-22 17:17:17,114:INFO: 2018-07-22 17:15:15 epoch 30, step 600, loss: 0.1167, global_step: 23568
+2018-07-22 17:17:55,041:INFO: 2018-07-22 17:15:15 epoch 30, step 792, loss: 0.08264, global_step: 23760
+2018-07-22 17:17:55,041:INFO: 2018-07-22 17:15:15 epoch 30, step 792, loss: 0.08264, global_step: 23760
+2018-07-22 17:17:55,244:INFO: ===========validation / test===========
+2018-07-22 17:17:55,244:INFO: ===========validation / test===========
+2018-07-22 17:18:04,748:INFO: processed 177232 tokens with 6192 phrases; found: 5931 phrases; correct: 5334.
+2018-07-22 17:18:04,748:INFO: processed 177232 tokens with 6192 phrases; found: 5931 phrases; correct: 5334.
+2018-07-22 17:18:04,748:INFO: accuracy:  98.50%; precision:  89.93%; recall:  86.14%; FB1:  88.00
+2018-07-22 17:18:04,748:INFO: accuracy:  98.50%; precision:  89.93%; recall:  86.14%; FB1:  88.00
+2018-07-22 17:18:04,749:INFO: LOC: precision:  92.94%; recall:  89.71%; FB1:  91.30  2777
+2018-07-22 17:18:04,749:INFO: LOC: precision:  92.94%; recall:  89.71%; FB1:  91.30  2777
+2018-07-22 17:18:04,749:INFO: ORG: precision:  85.28%; recall:  83.55%; FB1:  84.40  1304
+2018-07-22 17:18:04,749:INFO: ORG: precision:  85.28%; recall:  83.55%; FB1:  84.40  1304
+2018-07-22 17:18:04,749:INFO: PER: precision:  88.70%; recall:  82.71%; FB1:  85.60  1850
+2018-07-22 17:18:04,749:INFO: PER: precision:  88.70%; recall:  82.71%; FB1:  85.60  1850
+2018-07-22 17:18:05,045:INFO: 2018-07-22 17:18:04 epoch 31, step 1, loss: 0.03428, global_step: 23761
+2018-07-22 17:18:05,045:INFO: 2018-07-22 17:18:04 epoch 31, step 1, loss: 0.03428, global_step: 23761
+2018-07-22 17:19:04,803:INFO: 2018-07-22 17:18:04 epoch 31, step 300, loss: 0.1372, global_step: 24060
+2018-07-22 17:19:04,803:INFO: 2018-07-22 17:18:04 epoch 31, step 300, loss: 0.1372, global_step: 24060
+2018-07-22 17:20:05,115:INFO: 2018-07-22 17:18:04 epoch 31, step 600, loss: 0.1105, global_step: 24360
+2018-07-22 17:20:05,115:INFO: 2018-07-22 17:18:04 epoch 31, step 600, loss: 0.1105, global_step: 24360
+2018-07-22 17:20:43,258:INFO: 2018-07-22 17:18:04 epoch 31, step 792, loss: 0.1159, global_step: 24552
+2018-07-22 17:20:43,258:INFO: 2018-07-22 17:18:04 epoch 31, step 792, loss: 0.1159, global_step: 24552
+2018-07-22 17:20:43,461:INFO: ===========validation / test===========
+2018-07-22 17:20:43,461:INFO: ===========validation / test===========
+2018-07-22 17:20:53,031:INFO: processed 177232 tokens with 6192 phrases; found: 5970 phrases; correct: 5376.
+2018-07-22 17:20:53,031:INFO: processed 177232 tokens with 6192 phrases; found: 5970 phrases; correct: 5376.
+2018-07-22 17:20:53,031:INFO: accuracy:  98.53%; precision:  90.05%; recall:  86.82%; FB1:  88.41
+2018-07-22 17:20:53,031:INFO: accuracy:  98.53%; precision:  90.05%; recall:  86.82%; FB1:  88.41
+2018-07-22 17:20:53,031:INFO: LOC: precision:  92.90%; recall:  90.02%; FB1:  91.44  2788
+2018-07-22 17:20:53,031:INFO: LOC: precision:  92.90%; recall:  90.02%; FB1:  91.44  2788
+2018-07-22 17:20:53,032:INFO: ORG: precision:  84.47%; recall:  85.42%; FB1:  84.95  1346
+2018-07-22 17:20:53,032:INFO: ORG: precision:  84.47%; recall:  85.42%; FB1:  84.95  1346
+2018-07-22 17:20:53,032:INFO: PER: precision:  89.81%; recall:  83.11%; FB1:  86.34  1836
+2018-07-22 17:20:53,032:INFO: PER: precision:  89.81%; recall:  83.11%; FB1:  86.34  1836
+2018-07-22 17:20:53,317:INFO: 2018-07-22 17:20:53 epoch 32, step 1, loss: 0.06528, global_step: 24553
+2018-07-22 17:20:53,317:INFO: 2018-07-22 17:20:53 epoch 32, step 1, loss: 0.06528, global_step: 24553
+2018-07-22 17:21:52,350:INFO: 2018-07-22 17:20:53 epoch 32, step 300, loss: 0.09588, global_step: 24852
+2018-07-22 17:21:52,350:INFO: 2018-07-22 17:20:53 epoch 32, step 300, loss: 0.09588, global_step: 24852
+2018-07-22 17:22:50,836:INFO: 2018-07-22 17:20:53 epoch 32, step 600, loss: 0.1596, global_step: 25152
+2018-07-22 17:22:50,836:INFO: 2018-07-22 17:20:53 epoch 32, step 600, loss: 0.1596, global_step: 25152
+2018-07-22 17:23:28,391:INFO: 2018-07-22 17:20:53 epoch 32, step 792, loss: 0.0239, global_step: 25344
+2018-07-22 17:23:28,391:INFO: 2018-07-22 17:20:53 epoch 32, step 792, loss: 0.0239, global_step: 25344
+2018-07-22 17:23:28,584:INFO: ===========validation / test===========
+2018-07-22 17:23:28,584:INFO: ===========validation / test===========
+2018-07-22 17:23:38,417:INFO: processed 177232 tokens with 6192 phrases; found: 5980 phrases; correct: 5363.
+2018-07-22 17:23:38,417:INFO: processed 177232 tokens with 6192 phrases; found: 5980 phrases; correct: 5363.
+2018-07-22 17:23:38,418:INFO: accuracy:  98.53%; precision:  89.68%; recall:  86.61%; FB1:  88.12
+2018-07-22 17:23:38,418:INFO: accuracy:  98.53%; precision:  89.68%; recall:  86.61%; FB1:  88.12
+2018-07-22 17:23:38,418:INFO: LOC: precision:  92.31%; recall:  90.13%; FB1:  91.21  2809
+2018-07-22 17:23:38,418:INFO: LOC: precision:  92.31%; recall:  90.13%; FB1:  91.21  2809
+2018-07-22 17:23:38,418:INFO: ORG: precision:  85.81%; recall:  84.97%; FB1:  85.39  1318
+2018-07-22 17:23:38,418:INFO: ORG: precision:  85.81%; recall:  84.97%; FB1:  85.39  1318
+2018-07-22 17:23:38,418:INFO: PER: precision:  88.45%; recall:  82.61%; FB1:  85.43  1853
+2018-07-22 17:23:38,418:INFO: PER: precision:  88.45%; recall:  82.61%; FB1:  85.43  1853
+2018-07-22 17:23:38,733:INFO: 2018-07-22 17:23:38 epoch 33, step 1, loss: 0.03943, global_step: 25345
+2018-07-22 17:23:38,733:INFO: 2018-07-22 17:23:38 epoch 33, step 1, loss: 0.03943, global_step: 25345
+2018-07-22 17:24:37,967:INFO: 2018-07-22 17:23:38 epoch 33, step 300, loss: 0.06925, global_step: 25644
+2018-07-22 17:24:37,967:INFO: 2018-07-22 17:23:38 epoch 33, step 300, loss: 0.06925, global_step: 25644
+2018-07-22 17:25:36,785:INFO: 2018-07-22 17:23:38 epoch 33, step 600, loss: 0.08151, global_step: 25944
+2018-07-22 17:25:36,785:INFO: 2018-07-22 17:23:38 epoch 33, step 600, loss: 0.08151, global_step: 25944
+2018-07-22 17:26:14,656:INFO: 2018-07-22 17:23:38 epoch 33, step 792, loss: 0.05826, global_step: 26136
+2018-07-22 17:26:14,656:INFO: 2018-07-22 17:23:38 epoch 33, step 792, loss: 0.05826, global_step: 26136
+2018-07-22 17:26:14,866:INFO: ===========validation / test===========
+2018-07-22 17:26:14,866:INFO: ===========validation / test===========
+2018-07-22 17:26:24,677:INFO: processed 177232 tokens with 6192 phrases; found: 6016 phrases; correct: 5373.
+2018-07-22 17:26:24,677:INFO: processed 177232 tokens with 6192 phrases; found: 6016 phrases; correct: 5373.
+2018-07-22 17:26:24,678:INFO: accuracy:  98.53%; precision:  89.31%; recall:  86.77%; FB1:  88.02
+2018-07-22 17:26:24,678:INFO: accuracy:  98.53%; precision:  89.31%; recall:  86.77%; FB1:  88.02
+2018-07-22 17:26:24,678:INFO: LOC: precision:  92.50%; recall:  89.57%; FB1:  91.01  2786
+2018-07-22 17:26:24,678:INFO: LOC: precision:  92.50%; recall:  89.57%; FB1:  91.01  2786
+2018-07-22 17:26:24,678:INFO: ORG: precision:  84.89%; recall:  85.27%; FB1:  85.08  1337
+2018-07-22 17:26:24,678:INFO: ORG: precision:  84.89%; recall:  85.27%; FB1:  85.08  1337
+2018-07-22 17:26:24,678:INFO: PER: precision:  87.74%; recall:  83.72%; FB1:  85.68  1893
+2018-07-22 17:26:24,678:INFO: PER: precision:  87.74%; recall:  83.72%; FB1:  85.68  1893
+2018-07-22 17:26:25,018:INFO: 2018-07-22 17:26:24 epoch 34, step 1, loss: 0.02328, global_step: 26137
+2018-07-22 17:26:25,018:INFO: 2018-07-22 17:26:24 epoch 34, step 1, loss: 0.02328, global_step: 26137
+2018-07-22 17:27:24,190:INFO: 2018-07-22 17:26:24 epoch 34, step 300, loss: 0.04325, global_step: 26436
+2018-07-22 17:27:24,190:INFO: 2018-07-22 17:26:24 epoch 34, step 300, loss: 0.04325, global_step: 26436
+2018-07-22 17:28:23,402:INFO: 2018-07-22 17:26:24 epoch 34, step 600, loss: 0.2898, global_step: 26736
+2018-07-22 17:28:23,402:INFO: 2018-07-22 17:26:24 epoch 34, step 600, loss: 0.2898, global_step: 26736
+2018-07-22 17:29:01,401:INFO: 2018-07-22 17:26:24 epoch 34, step 792, loss: 0.5569, global_step: 26928
+2018-07-22 17:29:01,401:INFO: 2018-07-22 17:26:24 epoch 34, step 792, loss: 0.5569, global_step: 26928
+2018-07-22 17:29:01,595:INFO: ===========validation / test===========
+2018-07-22 17:29:01,595:INFO: ===========validation / test===========
+2018-07-22 17:29:11,167:INFO: processed 177232 tokens with 6192 phrases; found: 6047 phrases; correct: 5404.
+2018-07-22 17:29:11,167:INFO: processed 177232 tokens with 6192 phrases; found: 6047 phrases; correct: 5404.
+2018-07-22 17:29:11,168:INFO: accuracy:  98.52%; precision:  89.37%; recall:  87.27%; FB1:  88.31
+2018-07-22 17:29:11,168:INFO: accuracy:  98.52%; precision:  89.37%; recall:  87.27%; FB1:  88.31
+2018-07-22 17:29:11,168:INFO: LOC: precision:  93.73%; recall:  89.33%; FB1:  91.48  2742
+2018-07-22 17:29:11,168:INFO: LOC: precision:  93.73%; recall:  89.33%; FB1:  91.48  2742
+2018-07-22 17:29:11,168:INFO: ORG: precision:  82.90%; recall:  85.95%; FB1:  84.40  1380
+2018-07-22 17:29:11,168:INFO: ORG: precision:  82.90%; recall:  85.95%; FB1:  84.40  1380
+2018-07-22 17:29:11,168:INFO: PER: precision:  87.79%; recall:  85.18%; FB1:  86.47  1925
+2018-07-22 17:29:11,168:INFO: PER: precision:  87.79%; recall:  85.18%; FB1:  86.47  1925
+2018-07-22 17:29:11,498:INFO: 2018-07-22 17:29:11 epoch 35, step 1, loss: 0.07488, global_step: 26929
+2018-07-22 17:29:11,498:INFO: 2018-07-22 17:29:11 epoch 35, step 1, loss: 0.07488, global_step: 26929
+2018-07-22 17:30:10,619:INFO: 2018-07-22 17:29:11 epoch 35, step 300, loss: 0.0766, global_step: 27228
+2018-07-22 17:30:10,619:INFO: 2018-07-22 17:29:11 epoch 35, step 300, loss: 0.0766, global_step: 27228
+2018-07-22 17:31:10,582:INFO: 2018-07-22 17:29:11 epoch 35, step 600, loss: 0.06474, global_step: 27528
+2018-07-22 17:31:10,582:INFO: 2018-07-22 17:29:11 epoch 35, step 600, loss: 0.06474, global_step: 27528
+2018-07-22 17:31:48,057:INFO: 2018-07-22 17:29:11 epoch 35, step 792, loss: 0.1485, global_step: 27720
+2018-07-22 17:31:48,057:INFO: 2018-07-22 17:29:11 epoch 35, step 792, loss: 0.1485, global_step: 27720
+2018-07-22 17:31:48,279:INFO: ===========validation / test===========
+2018-07-22 17:31:48,279:INFO: ===========validation / test===========
+2018-07-22 17:31:57,998:INFO: processed 177232 tokens with 6192 phrases; found: 6087 phrases; correct: 5400.
+2018-07-22 17:31:57,998:INFO: processed 177232 tokens with 6192 phrases; found: 6087 phrases; correct: 5400.
+2018-07-22 17:31:57,999:INFO: accuracy:  98.46%; precision:  88.71%; recall:  87.21%; FB1:  87.96
+2018-07-22 17:31:57,999:INFO: accuracy:  98.46%; precision:  88.71%; recall:  87.21%; FB1:  87.96
+2018-07-22 17:31:57,999:INFO: LOC: precision:  92.37%; recall:  89.68%; FB1:  91.01  2793
+2018-07-22 17:31:57,999:INFO: LOC: precision:  92.37%; recall:  89.68%; FB1:  91.01  2793
+2018-07-22 17:31:57,999:INFO: ORG: precision:  84.16%; recall:  86.25%; FB1:  85.19  1364
+2018-07-22 17:31:57,999:INFO: ORG: precision:  84.16%; recall:  86.25%; FB1:  85.19  1364
+2018-07-22 17:31:57,999:INFO: PER: precision:  86.63%; recall:  84.27%; FB1:  85.44  1930
+2018-07-22 17:31:57,999:INFO: PER: precision:  86.63%; recall:  84.27%; FB1:  85.44  1930
+2018-07-22 17:31:58,317:INFO: 2018-07-22 17:31:58 epoch 36, step 1, loss: 0.2567, global_step: 27721
+2018-07-22 17:31:58,317:INFO: 2018-07-22 17:31:58 epoch 36, step 1, loss: 0.2567, global_step: 27721
+2018-07-22 17:32:57,021:INFO: 2018-07-22 17:31:58 epoch 36, step 300, loss: 0.1258, global_step: 28020
+2018-07-22 17:32:57,021:INFO: 2018-07-22 17:31:58 epoch 36, step 300, loss: 0.1258, global_step: 28020
+2018-07-22 17:33:56,482:INFO: 2018-07-22 17:31:58 epoch 36, step 600, loss: 0.03214, global_step: 28320
+2018-07-22 17:33:56,482:INFO: 2018-07-22 17:31:58 epoch 36, step 600, loss: 0.03214, global_step: 28320
+2018-07-22 17:34:34,401:INFO: 2018-07-22 17:31:58 epoch 36, step 792, loss: 0.1233, global_step: 28512
+2018-07-22 17:34:34,401:INFO: 2018-07-22 17:31:58 epoch 36, step 792, loss: 0.1233, global_step: 28512
+2018-07-22 17:34:34,594:INFO: ===========validation / test===========
+2018-07-22 17:34:34,594:INFO: ===========validation / test===========
+2018-07-22 17:34:44,379:INFO: processed 177232 tokens with 6192 phrases; found: 6066 phrases; correct: 5442.
+2018-07-22 17:34:44,379:INFO: processed 177232 tokens with 6192 phrases; found: 6066 phrases; correct: 5442.
+2018-07-22 17:34:44,379:INFO: accuracy:  98.53%; precision:  89.71%; recall:  87.89%; FB1:  88.79
+2018-07-22 17:34:44,379:INFO: accuracy:  98.53%; precision:  89.71%; recall:  87.89%; FB1:  88.79
+2018-07-22 17:34:44,379:INFO: LOC: precision:  93.51%; recall:  90.09%; FB1:  91.77  2772
+2018-07-22 17:34:44,379:INFO: LOC: precision:  93.51%; recall:  90.09%; FB1:  91.77  2772
+2018-07-22 17:34:44,379:INFO: ORG: precision:  85.06%; recall:  85.95%; FB1:  85.50  1345
+2018-07-22 17:34:44,379:INFO: ORG: precision:  85.06%; recall:  85.95%; FB1:  85.50  1345
+2018-07-22 17:34:44,379:INFO: PER: precision:  87.53%; recall:  85.99%; FB1:  86.75  1949
+2018-07-22 17:34:44,379:INFO: PER: precision:  87.53%; recall:  85.99%; FB1:  86.75  1949
+2018-07-22 17:34:44,646:INFO: 2018-07-22 17:34:44 epoch 37, step 1, loss: 0.1187, global_step: 28513
+2018-07-22 17:34:44,646:INFO: 2018-07-22 17:34:44 epoch 37, step 1, loss: 0.1187, global_step: 28513
+2018-07-22 17:35:43,283:INFO: 2018-07-22 17:34:44 epoch 37, step 300, loss: 0.1428, global_step: 28812
+2018-07-22 17:35:43,283:INFO: 2018-07-22 17:34:44 epoch 37, step 300, loss: 0.1428, global_step: 28812
+2018-07-22 17:36:42,051:INFO: 2018-07-22 17:34:44 epoch 37, step 600, loss: 0.07822, global_step: 29112
+2018-07-22 17:36:42,051:INFO: 2018-07-22 17:34:44 epoch 37, step 600, loss: 0.07822, global_step: 29112
+2018-07-22 17:37:19,999:INFO: 2018-07-22 17:34:44 epoch 37, step 792, loss: 0.08044, global_step: 29304
+2018-07-22 17:37:19,999:INFO: 2018-07-22 17:34:44 epoch 37, step 792, loss: 0.08044, global_step: 29304
+2018-07-22 17:37:20,187:INFO: ===========validation / test===========
+2018-07-22 17:37:20,187:INFO: ===========validation / test===========
+2018-07-22 17:37:29,739:INFO: processed 177232 tokens with 6192 phrases; found: 6067 phrases; correct: 5387.
+2018-07-22 17:37:29,739:INFO: processed 177232 tokens with 6192 phrases; found: 6067 phrases; correct: 5387.
+2018-07-22 17:37:29,739:INFO: accuracy:  98.43%; precision:  88.79%; recall:  87.00%; FB1:  87.89
+2018-07-22 17:37:29,739:INFO: accuracy:  98.43%; precision:  88.79%; recall:  87.00%; FB1:  87.89
+2018-07-22 17:37:29,739:INFO: LOC: precision:  93.20%; recall:  89.61%; FB1:  91.37  2766
+2018-07-22 17:37:29,739:INFO: LOC: precision:  93.20%; recall:  89.61%; FB1:  91.37  2766
+2018-07-22 17:37:29,739:INFO: ORG: precision:  82.80%; recall:  84.97%; FB1:  83.87  1366
+2018-07-22 17:37:29,739:INFO: ORG: precision:  82.80%; recall:  84.97%; FB1:  83.87  1366
+2018-07-22 17:37:29,739:INFO: PER: precision:  86.72%; recall:  84.58%; FB1:  85.63  1935
+2018-07-22 17:37:29,739:INFO: PER: precision:  86.72%; recall:  84.58%; FB1:  85.63  1935
+2018-07-22 17:37:30,018:INFO: 2018-07-22 17:37:29 epoch 38, step 1, loss: 0.1236, global_step: 29305
+2018-07-22 17:37:30,018:INFO: 2018-07-22 17:37:29 epoch 38, step 1, loss: 0.1236, global_step: 29305
+2018-07-22 17:38:28,537:INFO: 2018-07-22 17:37:29 epoch 38, step 300, loss: 0.05713, global_step: 29604
+2018-07-22 17:38:28,537:INFO: 2018-07-22 17:37:29 epoch 38, step 300, loss: 0.05713, global_step: 29604
+2018-07-22 17:39:27,026:INFO: 2018-07-22 17:37:29 epoch 38, step 600, loss: 0.3212, global_step: 29904
+2018-07-22 17:39:27,026:INFO: 2018-07-22 17:37:29 epoch 38, step 600, loss: 0.3212, global_step: 29904
+2018-07-22 17:40:05,575:INFO: 2018-07-22 17:37:29 epoch 38, step 792, loss: 0.06092, global_step: 30096
+2018-07-22 17:40:05,575:INFO: 2018-07-22 17:37:29 epoch 38, step 792, loss: 0.06092, global_step: 30096
+2018-07-22 17:40:05,779:INFO: ===========validation / test===========
+2018-07-22 17:40:05,779:INFO: ===========validation / test===========
+2018-07-22 17:40:15,742:INFO: processed 177232 tokens with 6192 phrases; found: 5998 phrases; correct: 5383.
+2018-07-22 17:40:15,742:INFO: processed 177232 tokens with 6192 phrases; found: 5998 phrases; correct: 5383.
+2018-07-22 17:40:15,743:INFO: accuracy:  98.49%; precision:  89.75%; recall:  86.93%; FB1:  88.32
+2018-07-22 17:40:15,743:INFO: accuracy:  98.49%; precision:  89.75%; recall:  86.93%; FB1:  88.32
+2018-07-22 17:40:15,743:INFO: LOC: precision:  93.17%; recall:  89.61%; FB1:  91.35  2767
+2018-07-22 17:40:15,743:INFO: LOC: precision:  93.17%; recall:  89.61%; FB1:  91.35  2767
+2018-07-22 17:40:15,743:INFO: ORG: precision:  86.74%; recall:  84.07%; FB1:  85.39  1290
+2018-07-22 17:40:15,743:INFO: ORG: precision:  86.74%; recall:  84.07%; FB1:  85.39  1290
+2018-07-22 17:40:15,743:INFO: PER: precision:  86.86%; recall:  84.98%; FB1:  85.91  1941
+2018-07-22 17:40:15,743:INFO: PER: precision:  86.86%; recall:  84.98%; FB1:  85.91  1941
+2018-07-22 17:40:16,023:INFO: 2018-07-22 17:40:15 epoch 39, step 1, loss: 0.07163, global_step: 30097
+2018-07-22 17:40:16,023:INFO: 2018-07-22 17:40:15 epoch 39, step 1, loss: 0.07163, global_step: 30097
+2018-07-22 17:41:17,535:INFO: 2018-07-22 17:40:15 epoch 39, step 300, loss: 0.0544, global_step: 30396
+2018-07-22 17:41:17,535:INFO: 2018-07-22 17:40:15 epoch 39, step 300, loss: 0.0544, global_step: 30396
+2018-07-22 17:42:17,465:INFO: 2018-07-22 17:40:15 epoch 39, step 600, loss: 0.158, global_step: 30696
+2018-07-22 17:42:17,465:INFO: 2018-07-22 17:40:15 epoch 39, step 600, loss: 0.158, global_step: 30696
+2018-07-22 17:42:55,492:INFO: 2018-07-22 17:40:15 epoch 39, step 792, loss: 0.1408, global_step: 30888
+2018-07-22 17:42:55,492:INFO: 2018-07-22 17:40:15 epoch 39, step 792, loss: 0.1408, global_step: 30888
+2018-07-22 17:42:55,699:INFO: ===========validation / test===========
+2018-07-22 17:42:55,699:INFO: ===========validation / test===========
+2018-07-22 17:43:05,435:INFO: processed 177232 tokens with 6192 phrases; found: 5987 phrases; correct: 5382.
+2018-07-22 17:43:05,435:INFO: processed 177232 tokens with 6192 phrases; found: 5987 phrases; correct: 5382.
+2018-07-22 17:43:05,435:INFO: accuracy:  98.54%; precision:  89.89%; recall:  86.92%; FB1:  88.38
+2018-07-22 17:43:05,435:INFO: accuracy:  98.54%; precision:  89.89%; recall:  86.92%; FB1:  88.38
+2018-07-22 17:43:05,435:INFO: LOC: precision:  92.39%; recall:  89.43%; FB1:  90.89  2785
+2018-07-22 17:43:05,435:INFO: LOC: precision:  92.39%; recall:  89.43%; FB1:  90.89  2785
+2018-07-22 17:43:05,435:INFO: ORG: precision:  86.33%; recall:  85.88%; FB1:  86.10  1324
+2018-07-22 17:43:05,435:INFO: ORG: precision:  86.33%; recall:  85.88%; FB1:  86.10  1324
+2018-07-22 17:43:05,435:INFO: PER: precision:  88.71%; recall:  83.97%; FB1:  86.28  1878
+2018-07-22 17:43:05,435:INFO: PER: precision:  88.71%; recall:  83.97%; FB1:  86.28  1878
+2018-07-22 17:43:05,715:INFO: 2018-07-22 17:43:05 epoch 40, step 1, loss: 0.1942, global_step: 30889
+2018-07-22 17:43:05,715:INFO: 2018-07-22 17:43:05 epoch 40, step 1, loss: 0.1942, global_step: 30889
+2018-07-22 17:44:05,040:INFO: 2018-07-22 17:43:05 epoch 40, step 300, loss: 0.166, global_step: 31188
+2018-07-22 17:44:05,040:INFO: 2018-07-22 17:43:05 epoch 40, step 300, loss: 0.166, global_step: 31188
+2018-07-22 17:45:04,541:INFO: 2018-07-22 17:43:05 epoch 40, step 600, loss: 0.05186, global_step: 31488
+2018-07-22 17:45:04,541:INFO: 2018-07-22 17:43:05 epoch 40, step 600, loss: 0.05186, global_step: 31488
+2018-07-22 17:45:42,559:INFO: 2018-07-22 17:43:05 epoch 40, step 792, loss: 0.05244, global_step: 31680
+2018-07-22 17:45:42,559:INFO: 2018-07-22 17:43:05 epoch 40, step 792, loss: 0.05244, global_step: 31680
+2018-07-22 17:45:42,760:INFO: ===========validation / test===========
+2018-07-22 17:45:42,760:INFO: ===========validation / test===========
+2018-07-22 17:45:52,311:INFO: processed 177232 tokens with 6192 phrases; found: 5991 phrases; correct: 5353.
+2018-07-22 17:45:52,311:INFO: processed 177232 tokens with 6192 phrases; found: 5991 phrases; correct: 5353.
+2018-07-22 17:45:52,311:INFO: accuracy:  98.46%; precision:  89.35%; recall:  86.45%; FB1:  87.88
+2018-07-22 17:45:52,311:INFO: accuracy:  98.46%; precision:  89.35%; recall:  86.45%; FB1:  87.88
+2018-07-22 17:45:52,311:INFO: LOC: precision:  93.28%; recall:  88.81%; FB1:  90.99  2739
+2018-07-22 17:45:52,311:INFO: LOC: precision:  93.28%; recall:  88.81%; FB1:  90.99  2739
+2018-07-22 17:45:52,312:INFO: ORG: precision:  84.46%; recall:  85.73%; FB1:  85.09  1351
+2018-07-22 17:45:52,312:INFO: ORG: precision:  84.46%; recall:  85.73%; FB1:  85.09  1351
+2018-07-22 17:45:52,312:INFO: PER: precision:  87.16%; recall:  83.52%; FB1:  85.30  1901
+2018-07-22 17:45:52,312:INFO: PER: precision:  87.16%; recall:  83.52%; FB1:  85.30  1901
+2018-07-22 17:48:43,122:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1532246099', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-07-22 17:48:44,255:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-07-22 17:48:44,255:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-07-22 18:38:28,664:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1532246099', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-07-22 18:38:29,746:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-07-22 18:38:29,746:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-07-22 18:40:01,832:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1532246099', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-07-22 18:40:02,923:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-07-22 18:40:02,923:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-07-22 18:40:29,137:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1532246099', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-07-22 18:40:30,194:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-07-22 18:40:30,194:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-07-23 12:17:24,309:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1532246099', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-07-23 12:17:25,377:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-07-23 12:17:25,377:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-07-23 12:18:00,862:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1532246099', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-07-23 12:18:01,957:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-07-23 12:18:01,957:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-07-23 12:19:47,156:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1532246099', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-07-23 12:19:48,248:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-07-23 12:19:48,248:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-07-23 12:21:30,115:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1532246099', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-07-23 12:21:31,198:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-07-23 12:21:31,198:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-09 21:52:29,318:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1532246099', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-08-09 21:52:30,433:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-09 21:52:30,433:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 10:52:59,834:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1532246099', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-08-10 10:54:01,180:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 10:54:01,180:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 10:55:25,522:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1532246099', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-08-10 10:56:00,619:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 10:56:00,619:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 11:02:27,445:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1532246099', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-08-10 11:02:27,456:INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-08-10 11:02:27,457:INFO:  * Restarting with stat
+2018-08-10 11:02:32,080:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1532246099', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-08-10 11:02:32,090:WARNING:  * Debugger is active!
+2018-08-10 11:02:32,090:INFO:  * Debugger PIN: 267-134-217
+2018-08-10 11:02:50,215:INFO: 127.0.0.1 - - [10/Aug/2018 11:02:50] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 11:02:51,513:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 11:02:51,513:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 11:02:51,959:INFO: 127.0.0.1 - - [10/Aug/2018 11:02:51] "POST /index HTTP/1.1" 200 -
+2018-08-10 11:02:51,959:INFO: 127.0.0.1 - - [10/Aug/2018 11:02:51] "POST /index HTTP/1.1" 200 -
+2018-08-10 11:03:28,483:INFO: 127.0.0.1 - - [10/Aug/2018 11:03:28] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 11:03:28,483:INFO: 127.0.0.1 - - [10/Aug/2018 11:03:28] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 11:03:29,720:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 11:03:29,720:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 11:03:29,720:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 11:03:29,857:INFO: 127.0.0.1 - - [10/Aug/2018 11:03:29] "POST /index HTTP/1.1" 200 -
+2018-08-10 11:03:29,857:INFO: 127.0.0.1 - - [10/Aug/2018 11:03:29] "POST /index HTTP/1.1" 200 -
+2018-08-10 11:03:29,857:INFO: 127.0.0.1 - - [10/Aug/2018 11:03:29] "POST /index HTTP/1.1" 200 -
+2018-08-10 11:05:59,948:INFO: 127.0.0.1 - - [10/Aug/2018 11:05:59] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 11:05:59,948:INFO: 127.0.0.1 - - [10/Aug/2018 11:05:59] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 11:05:59,948:INFO: 127.0.0.1 - - [10/Aug/2018 11:05:59] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 11:06:01,137:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 11:06:01,137:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 11:06:01,137:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 11:06:01,137:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 11:06:01,297:INFO: 127.0.0.1 - - [10/Aug/2018 11:06:01] "POST /index HTTP/1.1" 200 -
+2018-08-10 11:06:01,297:INFO: 127.0.0.1 - - [10/Aug/2018 11:06:01] "POST /index HTTP/1.1" 200 -
+2018-08-10 11:06:01,297:INFO: 127.0.0.1 - - [10/Aug/2018 11:06:01] "POST /index HTTP/1.1" 200 -
+2018-08-10 11:06:01,297:INFO: 127.0.0.1 - - [10/Aug/2018 11:06:01] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:22:40,860:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1532246099', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-08-10 13:22:40,874:INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-08-10 13:22:40,875:INFO:  * Restarting with stat
+2018-08-10 13:22:45,474:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1532246099', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-08-10 13:22:45,483:WARNING:  * Debugger is active!
+2018-08-10 13:22:45,484:INFO:  * Debugger PIN: 267-134-217
+2018-08-10 13:23:20,448:INFO: 127.0.0.1 - - [10/Aug/2018 13:23:20] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:23:21,689:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:23:21,689:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:23:22,138:INFO: 127.0.0.1 - - [10/Aug/2018 13:23:22] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:23:22,138:INFO: 127.0.0.1 - - [10/Aug/2018 13:23:22] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:24:46,132:INFO: 127.0.0.1 - - [10/Aug/2018 13:24:46] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:24:46,132:INFO: 127.0.0.1 - - [10/Aug/2018 13:24:46] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:24:47,344:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:24:47,344:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:24:47,344:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:24:47,492:INFO: 127.0.0.1 - - [10/Aug/2018 13:24:47] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:24:47,492:INFO: 127.0.0.1 - - [10/Aug/2018 13:24:47] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:24:47,492:INFO: 127.0.0.1 - - [10/Aug/2018 13:24:47] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:26:24,695:INFO: 127.0.0.1 - - [10/Aug/2018 13:26:24] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:26:24,695:INFO: 127.0.0.1 - - [10/Aug/2018 13:26:24] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:26:24,695:INFO: 127.0.0.1 - - [10/Aug/2018 13:26:24] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:26:25,897:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:26:25,897:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:26:25,897:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:26:25,897:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:26:26,039:INFO: 127.0.0.1 - - [10/Aug/2018 13:26:26] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:26:26,039:INFO: 127.0.0.1 - - [10/Aug/2018 13:26:26] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:26:26,039:INFO: 127.0.0.1 - - [10/Aug/2018 13:26:26] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:26:26,039:INFO: 127.0.0.1 - - [10/Aug/2018 13:26:26] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:33:03,372:INFO:  * Detected change in '/home/lisf/irlab/IRNLP/NER/main.py', reloading
+2018-08-10 13:33:03,372:INFO:  * Detected change in '/home/lisf/irlab/IRNLP/NER/main.py', reloading
+2018-08-10 13:33:03,372:INFO:  * Detected change in '/home/lisf/irlab/IRNLP/NER/main.py', reloading
+2018-08-10 13:33:03,372:INFO:  * Detected change in '/home/lisf/irlab/IRNLP/NER/main.py', reloading
+2018-08-10 13:33:03,694:INFO:  * Restarting with stat
+2018-08-10 13:33:08,575:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1532246099', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-08-10 13:33:08,585:WARNING:  * Debugger is active!
+2018-08-10 13:33:08,586:INFO:  * Debugger PIN: 267-134-217
+2018-08-10 13:33:26,418:INFO: 127.0.0.1 - - [10/Aug/2018 13:33:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:33:27,642:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:33:27,642:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:33:27,922:INFO: 127.0.0.1 - - [10/Aug/2018 13:33:27] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:33:27,922:INFO: 127.0.0.1 - - [10/Aug/2018 13:33:27] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:33:49,039:INFO: 127.0.0.1 - - [10/Aug/2018 13:33:49] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:33:49,039:INFO: 127.0.0.1 - - [10/Aug/2018 13:33:49] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:33:50,271:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:33:50,271:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:33:50,271:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:33:50,556:INFO: 127.0.0.1 - - [10/Aug/2018 13:33:50] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:33:50,556:INFO: 127.0.0.1 - - [10/Aug/2018 13:33:50] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:33:50,556:INFO: 127.0.0.1 - - [10/Aug/2018 13:33:50] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:40:00,294:INFO: 127.0.0.1 - - [10/Aug/2018 13:40:00] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:40:00,294:INFO: 127.0.0.1 - - [10/Aug/2018 13:40:00] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:40:00,294:INFO: 127.0.0.1 - - [10/Aug/2018 13:40:00] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:40:01,499:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:40:01,499:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:40:01,499:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:40:01,499:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:40:01,614:INFO: 127.0.0.1 - - [10/Aug/2018 13:40:01] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:40:01,614:INFO: 127.0.0.1 - - [10/Aug/2018 13:40:01] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:40:01,614:INFO: 127.0.0.1 - - [10/Aug/2018 13:40:01] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:40:01,614:INFO: 127.0.0.1 - - [10/Aug/2018 13:40:01] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:40:30,151:INFO: 127.0.0.1 - - [10/Aug/2018 13:40:30] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:40:30,151:INFO: 127.0.0.1 - - [10/Aug/2018 13:40:30] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:40:30,151:INFO: 127.0.0.1 - - [10/Aug/2018 13:40:30] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:40:30,151:INFO: 127.0.0.1 - - [10/Aug/2018 13:40:30] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:40:31,345:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:40:31,345:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:40:31,345:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:40:31,345:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:40:31,345:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:40:31,460:INFO: 127.0.0.1 - - [10/Aug/2018 13:40:31] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:40:31,460:INFO: 127.0.0.1 - - [10/Aug/2018 13:40:31] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:40:31,460:INFO: 127.0.0.1 - - [10/Aug/2018 13:40:31] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:40:31,460:INFO: 127.0.0.1 - - [10/Aug/2018 13:40:31] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:40:31,460:INFO: 127.0.0.1 - - [10/Aug/2018 13:40:31] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:41:22,082:INFO: 127.0.0.1 - - [10/Aug/2018 13:41:22] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:41:22,082:INFO: 127.0.0.1 - - [10/Aug/2018 13:41:22] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:41:22,082:INFO: 127.0.0.1 - - [10/Aug/2018 13:41:22] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:41:22,082:INFO: 127.0.0.1 - - [10/Aug/2018 13:41:22] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:41:22,082:INFO: 127.0.0.1 - - [10/Aug/2018 13:41:22] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:41:23,270:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:41:23,270:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:41:23,270:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:41:23,270:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:41:23,270:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:41:23,270:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:41:23,389:INFO: 127.0.0.1 - - [10/Aug/2018 13:41:23] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:41:23,389:INFO: 127.0.0.1 - - [10/Aug/2018 13:41:23] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:41:23,389:INFO: 127.0.0.1 - - [10/Aug/2018 13:41:23] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:41:23,389:INFO: 127.0.0.1 - - [10/Aug/2018 13:41:23] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:41:23,389:INFO: 127.0.0.1 - - [10/Aug/2018 13:41:23] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:41:23,389:INFO: 127.0.0.1 - - [10/Aug/2018 13:41:23] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:45:30,259:INFO: 127.0.0.1 - - [10/Aug/2018 13:45:30] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:45:30,259:INFO: 127.0.0.1 - - [10/Aug/2018 13:45:30] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:45:30,259:INFO: 127.0.0.1 - - [10/Aug/2018 13:45:30] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:45:30,259:INFO: 127.0.0.1 - - [10/Aug/2018 13:45:30] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:45:30,259:INFO: 127.0.0.1 - - [10/Aug/2018 13:45:30] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:45:30,259:INFO: 127.0.0.1 - - [10/Aug/2018 13:45:30] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 13:45:31,462:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:45:31,462:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:45:31,462:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:45:31,462:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:45:31,462:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:45:31,462:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:45:31,462:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 13:45:31,589:INFO: 127.0.0.1 - - [10/Aug/2018 13:45:31] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:45:31,589:INFO: 127.0.0.1 - - [10/Aug/2018 13:45:31] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:45:31,589:INFO: 127.0.0.1 - - [10/Aug/2018 13:45:31] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:45:31,589:INFO: 127.0.0.1 - - [10/Aug/2018 13:45:31] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:45:31,589:INFO: 127.0.0.1 - - [10/Aug/2018 13:45:31] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:45:31,589:INFO: 127.0.0.1 - - [10/Aug/2018 13:45:31] "POST /index HTTP/1.1" 200 -
+2018-08-10 13:45:31,589:INFO: 127.0.0.1 - - [10/Aug/2018 13:45:31] "POST /index HTTP/1.1" 200 -
+2018-08-10 22:39:58,317:INFO: 127.0.0.1 - - [10/Aug/2018 22:39:58] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 22:39:58,317:INFO: 127.0.0.1 - - [10/Aug/2018 22:39:58] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 22:39:58,317:INFO: 127.0.0.1 - - [10/Aug/2018 22:39:58] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 22:39:58,317:INFO: 127.0.0.1 - - [10/Aug/2018 22:39:58] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 22:39:58,317:INFO: 127.0.0.1 - - [10/Aug/2018 22:39:58] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 22:39:58,317:INFO: 127.0.0.1 - - [10/Aug/2018 22:39:58] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 22:39:58,317:INFO: 127.0.0.1 - - [10/Aug/2018 22:39:58] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-10 22:39:59,553:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 22:39:59,553:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 22:39:59,553:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 22:39:59,553:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 22:39:59,553:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 22:39:59,553:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 22:39:59,553:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 22:39:59,553:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-10 22:39:59,709:INFO: 127.0.0.1 - - [10/Aug/2018 22:39:59] "POST /index HTTP/1.1" 200 -
+2018-08-10 22:39:59,709:INFO: 127.0.0.1 - - [10/Aug/2018 22:39:59] "POST /index HTTP/1.1" 200 -
+2018-08-10 22:39:59,709:INFO: 127.0.0.1 - - [10/Aug/2018 22:39:59] "POST /index HTTP/1.1" 200 -
+2018-08-10 22:39:59,709:INFO: 127.0.0.1 - - [10/Aug/2018 22:39:59] "POST /index HTTP/1.1" 200 -
+2018-08-10 22:39:59,709:INFO: 127.0.0.1 - - [10/Aug/2018 22:39:59] "POST /index HTTP/1.1" 200 -
+2018-08-10 22:39:59,709:INFO: 127.0.0.1 - - [10/Aug/2018 22:39:59] "POST /index HTTP/1.1" 200 -
+2018-08-10 22:39:59,709:INFO: 127.0.0.1 - - [10/Aug/2018 22:39:59] "POST /index HTTP/1.1" 200 -
+2018-08-10 22:39:59,709:INFO: 127.0.0.1 - - [10/Aug/2018 22:39:59] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:41:19,971:INFO: 127.0.0.1 - - [11/Aug/2018 09:41:19] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:41:19,971:INFO: 127.0.0.1 - - [11/Aug/2018 09:41:19] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:41:19,971:INFO: 127.0.0.1 - - [11/Aug/2018 09:41:19] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:41:19,971:INFO: 127.0.0.1 - - [11/Aug/2018 09:41:19] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:41:19,971:INFO: 127.0.0.1 - - [11/Aug/2018 09:41:19] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:41:19,971:INFO: 127.0.0.1 - - [11/Aug/2018 09:41:19] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:41:19,971:INFO: 127.0.0.1 - - [11/Aug/2018 09:41:19] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:41:19,971:INFO: 127.0.0.1 - - [11/Aug/2018 09:41:19] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:41:21,147:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:41:21,147:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:41:21,147:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:41:21,147:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:41:21,147:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:41:21,147:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:41:21,147:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:41:21,147:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:41:21,147:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:41:21,288:INFO: 127.0.0.1 - - [11/Aug/2018 09:41:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:41:21,288:INFO: 127.0.0.1 - - [11/Aug/2018 09:41:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:41:21,288:INFO: 127.0.0.1 - - [11/Aug/2018 09:41:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:41:21,288:INFO: 127.0.0.1 - - [11/Aug/2018 09:41:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:41:21,288:INFO: 127.0.0.1 - - [11/Aug/2018 09:41:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:41:21,288:INFO: 127.0.0.1 - - [11/Aug/2018 09:41:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:41:21,288:INFO: 127.0.0.1 - - [11/Aug/2018 09:41:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:41:21,288:INFO: 127.0.0.1 - - [11/Aug/2018 09:41:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:41:21,288:INFO: 127.0.0.1 - - [11/Aug/2018 09:41:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:43:53,175:INFO: 127.0.0.1 - - [11/Aug/2018 09:43:53] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:43:53,175:INFO: 127.0.0.1 - - [11/Aug/2018 09:43:53] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:43:53,175:INFO: 127.0.0.1 - - [11/Aug/2018 09:43:53] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:43:53,175:INFO: 127.0.0.1 - - [11/Aug/2018 09:43:53] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:43:53,175:INFO: 127.0.0.1 - - [11/Aug/2018 09:43:53] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:43:53,175:INFO: 127.0.0.1 - - [11/Aug/2018 09:43:53] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:43:53,175:INFO: 127.0.0.1 - - [11/Aug/2018 09:43:53] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:43:53,175:INFO: 127.0.0.1 - - [11/Aug/2018 09:43:53] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:43:53,175:INFO: 127.0.0.1 - - [11/Aug/2018 09:43:53] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:43:54,365:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:43:54,365:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:43:54,365:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:43:54,365:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:43:54,365:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:43:54,365:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:43:54,365:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:43:54,365:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:43:54,365:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:43:54,365:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:43:54,481:INFO: 127.0.0.1 - - [11/Aug/2018 09:43:54] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:43:54,481:INFO: 127.0.0.1 - - [11/Aug/2018 09:43:54] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:43:54,481:INFO: 127.0.0.1 - - [11/Aug/2018 09:43:54] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:43:54,481:INFO: 127.0.0.1 - - [11/Aug/2018 09:43:54] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:43:54,481:INFO: 127.0.0.1 - - [11/Aug/2018 09:43:54] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:43:54,481:INFO: 127.0.0.1 - - [11/Aug/2018 09:43:54] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:43:54,481:INFO: 127.0.0.1 - - [11/Aug/2018 09:43:54] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:43:54,481:INFO: 127.0.0.1 - - [11/Aug/2018 09:43:54] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:43:54,481:INFO: 127.0.0.1 - - [11/Aug/2018 09:43:54] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:43:54,481:INFO: 127.0.0.1 - - [11/Aug/2018 09:43:54] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:47:26,870:INFO: 127.0.0.1 - - [11/Aug/2018 09:47:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:47:26,870:INFO: 127.0.0.1 - - [11/Aug/2018 09:47:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:47:26,870:INFO: 127.0.0.1 - - [11/Aug/2018 09:47:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:47:26,870:INFO: 127.0.0.1 - - [11/Aug/2018 09:47:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:47:26,870:INFO: 127.0.0.1 - - [11/Aug/2018 09:47:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:47:26,870:INFO: 127.0.0.1 - - [11/Aug/2018 09:47:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:47:26,870:INFO: 127.0.0.1 - - [11/Aug/2018 09:47:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:47:26,870:INFO: 127.0.0.1 - - [11/Aug/2018 09:47:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:47:26,870:INFO: 127.0.0.1 - - [11/Aug/2018 09:47:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:47:26,870:INFO: 127.0.0.1 - - [11/Aug/2018 09:47:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:47:28,081:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:47:28,081:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:47:28,081:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:47:28,081:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:47:28,081:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:47:28,081:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:47:28,081:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:47:28,081:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:47:28,081:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:47:28,081:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:47:28,081:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:47:28,199:INFO: 127.0.0.1 - - [11/Aug/2018 09:47:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:47:28,199:INFO: 127.0.0.1 - - [11/Aug/2018 09:47:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:47:28,199:INFO: 127.0.0.1 - - [11/Aug/2018 09:47:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:47:28,199:INFO: 127.0.0.1 - - [11/Aug/2018 09:47:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:47:28,199:INFO: 127.0.0.1 - - [11/Aug/2018 09:47:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:47:28,199:INFO: 127.0.0.1 - - [11/Aug/2018 09:47:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:47:28,199:INFO: 127.0.0.1 - - [11/Aug/2018 09:47:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:47:28,199:INFO: 127.0.0.1 - - [11/Aug/2018 09:47:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:47:28,199:INFO: 127.0.0.1 - - [11/Aug/2018 09:47:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:47:28,199:INFO: 127.0.0.1 - - [11/Aug/2018 09:47:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:47:28,199:INFO: 127.0.0.1 - - [11/Aug/2018 09:47:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:49:42,025:INFO: 127.0.0.1 - - [11/Aug/2018 09:49:42] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:49:42,025:INFO: 127.0.0.1 - - [11/Aug/2018 09:49:42] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:49:42,025:INFO: 127.0.0.1 - - [11/Aug/2018 09:49:42] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:49:42,025:INFO: 127.0.0.1 - - [11/Aug/2018 09:49:42] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:49:42,025:INFO: 127.0.0.1 - - [11/Aug/2018 09:49:42] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:49:42,025:INFO: 127.0.0.1 - - [11/Aug/2018 09:49:42] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:49:42,025:INFO: 127.0.0.1 - - [11/Aug/2018 09:49:42] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:49:42,025:INFO: 127.0.0.1 - - [11/Aug/2018 09:49:42] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:49:42,025:INFO: 127.0.0.1 - - [11/Aug/2018 09:49:42] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:49:42,025:INFO: 127.0.0.1 - - [11/Aug/2018 09:49:42] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:49:42,025:INFO: 127.0.0.1 - - [11/Aug/2018 09:49:42] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:49:43,220:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:49:43,220:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:49:43,220:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:49:43,220:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:49:43,220:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:49:43,220:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:49:43,220:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:49:43,220:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:49:43,220:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:49:43,220:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:49:43,220:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:49:43,220:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:49:43,338:INFO: 127.0.0.1 - - [11/Aug/2018 09:49:43] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:49:43,338:INFO: 127.0.0.1 - - [11/Aug/2018 09:49:43] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:49:43,338:INFO: 127.0.0.1 - - [11/Aug/2018 09:49:43] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:49:43,338:INFO: 127.0.0.1 - - [11/Aug/2018 09:49:43] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:49:43,338:INFO: 127.0.0.1 - - [11/Aug/2018 09:49:43] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:49:43,338:INFO: 127.0.0.1 - - [11/Aug/2018 09:49:43] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:49:43,338:INFO: 127.0.0.1 - - [11/Aug/2018 09:49:43] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:49:43,338:INFO: 127.0.0.1 - - [11/Aug/2018 09:49:43] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:49:43,338:INFO: 127.0.0.1 - - [11/Aug/2018 09:49:43] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:49:43,338:INFO: 127.0.0.1 - - [11/Aug/2018 09:49:43] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:49:43,338:INFO: 127.0.0.1 - - [11/Aug/2018 09:49:43] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:49:43,338:INFO: 127.0.0.1 - - [11/Aug/2018 09:49:43] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:50:59,307:INFO: 127.0.0.1 - - [11/Aug/2018 09:50:59] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:50:59,307:INFO: 127.0.0.1 - - [11/Aug/2018 09:50:59] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:50:59,307:INFO: 127.0.0.1 - - [11/Aug/2018 09:50:59] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:50:59,307:INFO: 127.0.0.1 - - [11/Aug/2018 09:50:59] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:50:59,307:INFO: 127.0.0.1 - - [11/Aug/2018 09:50:59] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:50:59,307:INFO: 127.0.0.1 - - [11/Aug/2018 09:50:59] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:50:59,307:INFO: 127.0.0.1 - - [11/Aug/2018 09:50:59] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:50:59,307:INFO: 127.0.0.1 - - [11/Aug/2018 09:50:59] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:50:59,307:INFO: 127.0.0.1 - - [11/Aug/2018 09:50:59] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:50:59,307:INFO: 127.0.0.1 - - [11/Aug/2018 09:50:59] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:50:59,307:INFO: 127.0.0.1 - - [11/Aug/2018 09:50:59] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:50:59,307:INFO: 127.0.0.1 - - [11/Aug/2018 09:50:59] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 09:51:00,541:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:51:00,541:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:51:00,541:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:51:00,541:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:51:00,541:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:51:00,541:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:51:00,541:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:51:00,541:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:51:00,541:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:51:00,541:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:51:00,541:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:51:00,541:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:51:00,541:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 09:51:00,656:INFO: 127.0.0.1 - - [11/Aug/2018 09:51:00] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:51:00,656:INFO: 127.0.0.1 - - [11/Aug/2018 09:51:00] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:51:00,656:INFO: 127.0.0.1 - - [11/Aug/2018 09:51:00] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:51:00,656:INFO: 127.0.0.1 - - [11/Aug/2018 09:51:00] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:51:00,656:INFO: 127.0.0.1 - - [11/Aug/2018 09:51:00] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:51:00,656:INFO: 127.0.0.1 - - [11/Aug/2018 09:51:00] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:51:00,656:INFO: 127.0.0.1 - - [11/Aug/2018 09:51:00] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:51:00,656:INFO: 127.0.0.1 - - [11/Aug/2018 09:51:00] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:51:00,656:INFO: 127.0.0.1 - - [11/Aug/2018 09:51:00] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:51:00,656:INFO: 127.0.0.1 - - [11/Aug/2018 09:51:00] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:51:00,656:INFO: 127.0.0.1 - - [11/Aug/2018 09:51:00] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:51:00,656:INFO: 127.0.0.1 - - [11/Aug/2018 09:51:00] "POST /index HTTP/1.1" 200 -
+2018-08-11 09:51:00,656:INFO: 127.0.0.1 - - [11/Aug/2018 09:51:00] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:13,512:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:13] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:13,512:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:13] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:13,512:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:13] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:13,512:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:13] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:13,512:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:13] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:13,512:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:13] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:13,512:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:13] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:13,512:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:13] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:13,512:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:13] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:13,512:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:13] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:13,512:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:13] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:13,512:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:13] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:13,512:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:13] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:14,708:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:14,708:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:14,708:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:14,708:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:14,708:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:14,708:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:14,708:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:14,708:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:14,708:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:14,708:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:14,708:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:14,708:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:14,708:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:14,708:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:14,828:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:14] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:14,828:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:14] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:14,828:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:14] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:14,828:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:14] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:14,828:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:14] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:14,828:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:14] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:14,828:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:14] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:14,828:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:14] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:14,828:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:14] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:14,828:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:14] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:14,828:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:14] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:14,828:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:14] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:14,828:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:14] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:14,828:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:14] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:53,171:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:53] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:53,171:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:53] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:53,171:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:53] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:53,171:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:53] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:53,171:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:53] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:53,171:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:53] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:53,171:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:53] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:53,171:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:53] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:53,171:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:53] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:53,171:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:53] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:53,171:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:53] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:53,171:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:53] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:53,171:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:53] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:53,171:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:53] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:06:54,352:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:54,352:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:54,352:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:54,352:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:54,352:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:54,352:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:54,352:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:54,352:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:54,352:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:54,352:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:54,352:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:54,352:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:54,352:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:54,352:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:54,352:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:06:54,472:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:54] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:54,472:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:54] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:54,472:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:54] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:54,472:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:54] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:54,472:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:54] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:54,472:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:54] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:54,472:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:54] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:54,472:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:54] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:54,472:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:54] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:54,472:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:54] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:54,472:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:54] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:54,472:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:54] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:54,472:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:54] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:54,472:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:54] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:06:54,472:INFO: 127.0.0.1 - - [11/Aug/2018 10:06:54] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:07:57,717:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:57] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:07:57,717:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:57] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:07:57,717:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:57] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:07:57,717:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:57] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:07:57,717:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:57] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:07:57,717:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:57] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:07:57,717:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:57] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:07:57,717:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:57] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:07:57,717:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:57] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:07:57,717:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:57] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:07:57,717:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:57] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:07:57,717:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:57] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:07:57,717:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:57] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:07:57,717:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:57] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:07:57,717:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:57] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:07:58,915:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:07:58,915:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:07:58,915:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:07:58,915:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:07:58,915:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:07:58,915:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:07:58,915:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:07:58,915:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:07:58,915:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:07:58,915:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:07:58,915:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:07:58,915:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:07:58,915:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:07:58,915:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:07:58,915:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:07:58,915:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:07:59,062:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:59] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:07:59,062:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:59] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:07:59,062:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:59] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:07:59,062:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:59] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:07:59,062:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:59] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:07:59,062:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:59] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:07:59,062:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:59] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:07:59,062:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:59] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:07:59,062:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:59] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:07:59,062:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:59] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:07:59,062:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:59] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:07:59,062:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:59] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:07:59,062:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:59] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:07:59,062:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:59] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:07:59,062:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:59] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:07:59,062:INFO: 127.0.0.1 - - [11/Aug/2018 10:07:59] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:19,920:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:19] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:19,920:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:19] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:19,920:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:19] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:19,920:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:19] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:19,920:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:19] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:19,920:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:19] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:19,920:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:19] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:19,920:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:19] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:19,920:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:19] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:19,920:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:19] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:19,920:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:19] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:19,920:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:19] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:19,920:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:19] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:19,920:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:19] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:19,920:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:19] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:19,920:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:19] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:21,132:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:21,132:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:21,132:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:21,132:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:21,132:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:21,132:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:21,132:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:21,132:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:21,132:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:21,132:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:21,132:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:21,132:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:21,132:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:21,132:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:21,132:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:21,132:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:21,132:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:21,280:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:21,280:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:21,280:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:21,280:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:21,280:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:21,280:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:21,280:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:21,280:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:21,280:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:21,280:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:21,280:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:21,280:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:21,280:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:21,280:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:21,280:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:21,280:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:21,280:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:21] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:32,226:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:32] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:32,226:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:32] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:32,226:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:32] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:32,226:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:32] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:32,226:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:32] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:32,226:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:32] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:32,226:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:32] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:32,226:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:32] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:32,226:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:32] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:32,226:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:32] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:32,226:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:32] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:32,226:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:32] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:32,226:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:32] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:32,226:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:32] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:32,226:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:32] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:32,226:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:32] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:32,226:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:32] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:33,421:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:33,421:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:33,421:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:33,421:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:33,421:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:33,421:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:33,421:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:33,421:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:33,421:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:33,421:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:33,421:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:33,421:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:33,421:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:33,421:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:33,421:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:33,421:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:33,421:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:33,421:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:33,572:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:33] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:33,572:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:33] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:33,572:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:33] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:33,572:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:33] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:33,572:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:33] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:33,572:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:33] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:33,572:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:33] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:33,572:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:33] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:33,572:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:33] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:33,572:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:33] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:33,572:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:33] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:33,572:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:33] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:33,572:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:33] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:33,572:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:33] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:33,572:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:33] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:33,572:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:33] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:33,572:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:33] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:33,572:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:33] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:48,817:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:48] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:48,817:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:48] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:48,817:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:48] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:48,817:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:48] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:48,817:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:48] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:48,817:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:48] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:48,817:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:48] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:48,817:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:48] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:48,817:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:48] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:48,817:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:48] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:48,817:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:48] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:48,817:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:48] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:48,817:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:48] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:48,817:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:48] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:48,817:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:48] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:48,817:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:48] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:48,817:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:48] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:48,817:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:48] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:08:50,083:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:50,083:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:50,083:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:50,083:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:50,083:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:50,083:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:50,083:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:50,083:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:50,083:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:50,083:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:50,083:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:50,083:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:50,083:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:50,083:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:50,083:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:50,083:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:50,083:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:50,083:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:50,083:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:08:50,229:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:50] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:50,229:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:50] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:50,229:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:50] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:50,229:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:50] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:50,229:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:50] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:50,229:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:50] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:50,229:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:50] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:50,229:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:50] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:50,229:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:50] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:50,229:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:50] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:50,229:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:50] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:50,229:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:50] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:50,229:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:50] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:50,229:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:50] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:50,229:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:50] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:50,229:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:50] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:50,229:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:50] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:50,229:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:50] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:08:50,229:INFO: 127.0.0.1 - - [11/Aug/2018 10:08:50] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:09:26,822:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:09:26,822:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:09:26,822:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:09:26,822:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:09:26,822:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:09:26,822:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:09:26,822:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:09:26,822:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:09:26,822:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:09:26,822:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:09:26,822:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:09:26,822:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:09:26,822:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:09:26,822:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:09:26,822:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:09:26,822:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:09:26,822:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:09:26,822:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:09:26,822:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:26] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-11 10:09:28,013:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:09:28,013:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:09:28,013:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:09:28,013:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:09:28,013:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:09:28,013:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:09:28,013:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:09:28,013:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:09:28,013:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:09:28,013:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:09:28,013:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:09:28,013:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:09:28,013:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:09:28,013:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:09:28,013:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:09:28,013:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:09:28,013:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:09:28,013:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:09:28,013:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:09:28,013:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-11 10:09:28,174:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:09:28,174:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:09:28,174:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:09:28,174:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:09:28,174:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:09:28,174:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:09:28,174:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:09:28,174:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:09:28,174:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:09:28,174:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:09:28,174:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:09:28,174:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:09:28,174:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:09:28,174:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:09:28,174:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:09:28,174:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:09:28,174:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:09:28,174:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:09:28,174:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:28] "POST /index HTTP/1.1" 200 -
+2018-08-11 10:09:28,174:INFO: 127.0.0.1 - - [11/Aug/2018 10:09:28] "POST /index HTTP/1.1" 200 -
+2018-08-13 18:15:29,686:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1532246099', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-08-13 18:15:29,702:INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-08-13 18:15:29,702:INFO:  * Restarting with stat
+2018-08-13 18:15:34,183:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1532246099', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-08-13 18:15:34,197:WARNING:  * Debugger is active!
+2018-08-13 18:15:34,197:INFO:  * Debugger PIN: 267-134-217
+2018-08-13 18:15:48,530:INFO: 127.0.0.1 - - [13/Aug/2018 18:15:48] "OPTIONS /index HTTP/1.1" 200 -
+2018-08-13 18:15:49,810:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-13 18:15:49,810:INFO: Restoring parameters from ./data_path_save/1532246099/checkpoints/model-31680
+2018-08-13 18:15:50,271:INFO: 127.0.0.1 - - [13/Aug/2018 18:15:50] "POST /index HTTP/1.1" 200 -
+2018-08-13 18:15:50,271:INFO: 127.0.0.1 - - [13/Aug/2018 18:15:50] "POST /index HTTP/1.1" 200 -
