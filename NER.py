@@ -1,11 +1,36 @@
+import thulac
 import flask
-from flask import Flask
-from flask import jsonify
+from flask import Flask, request, jsonify, make_response
+from flask_cors import *
 from flask import url_for
-from flask import request
-from flask import json,render_template
+from flask import json, render_template
+import json
 import main
+
 app=Flask(__name__)
+
+def tagging(content):
+    thu1 = thulac.thulac()
+    text = thu1.cut(content, text=True)
+    return text
+CORS(app, supports_credentials=True)
+
+@app.route("/POSTagging/", methods=["POST", "OPTIONS"])
+def POStagg():
+    if request.method == 'OPTIONS':
+        res = flask.make_response()
+        print("options response done!")
+    if request.method == "POST":
+        json_dict = request.get_json()
+        content = json_dict["content"]
+        tag_result = tagging(content)
+        tag_result1 = {"success": "true", "msg": tag_result}
+        result1 = json.dumps(tag_result1, ensure_ascii=False)
+        return result1
+    else:
+        return """<html><dody>
+        Something went horribly wrong
+        </body></html>"""
 
 @app.route('/test',methods=['POST','GET'])
 def sendtest():
