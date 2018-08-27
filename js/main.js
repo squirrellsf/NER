@@ -10,9 +10,9 @@ $(document).ready(function(){
 			dataType: "json",
 			success: function(data){
 				if (data.success) { 
-					$("#analysisResult").html(data.msg);
+					$("#analysisResult").val(data.msg);
 				} else {
-					$("#analysisResult").html("出现错误：" + data.msg);
+					$("#analysisResult").val("出现错误：" + data.msg);
 				}  
 			},
 			error: function(jqXHR){     
